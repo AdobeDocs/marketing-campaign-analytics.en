@@ -53,6 +53,20 @@ A model can optionally include:
 
 When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model may subsequently be retrained. Also, data may be added to the model which requires you to rescore the model manually. Retraining and rescoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives.
 
+## Full funnel modeling
+
+Full funnel modeling let you model the real stages of their funnel. For example, from newsletter sign-up up to a purchase. Full funnel modeling shows how marketing moves customers through that funnel. Full funnel modeling gives upper-funnel channels credit for the conversions these channels influence downstream, and reconciles the results so contributions add up correctly with no double-counting.
+
+You use full funnel modeling to model on one upper funnel KPI alongside one lower funnel KPI. 
+
+* Examples of upper funnel KPIs are newsletter signups nd other brand awareness metrics.
+* Examples of lower funnel metrics are typical conversion metrics, such as revenue and orders. 
+
+Upper funnel tactics often get lesser credit in a conversion focused MMM model. Full funnel modeling  helps you to understand:
+
+* Which media and marketing tactics contributed to the upper funnel goal.
+* Which media and marketing tactics drove indirect impact on the conversion goal. The upper funnel model weights are an input to the lower funnel model to give higher weightage for the media and marketing tactics where relevant. 
+
 ## Build models
 
 To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.

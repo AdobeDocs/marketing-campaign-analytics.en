@@ -57,7 +57,12 @@ You define a name and a description in the **[!UICONTROL Setup]** step:
 >abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
 
 
-You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
+You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the enablement of full funnel modeling, the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
+
+1. If you want to enable [full funnel modeling](./overview.md#full-funnel-modeling), in the **[!UICONTROL Full funnel model]** section:
+
+   1. Select **[!UICONTROL Enable full funnel modeling]**. 
+   1. Select an upper conversion from the **[!UICONTROL Upper funnel conversion]** dropdown menu.
 
 1. In the **[!UICONTROL Conversion goal]** section:
 
@@ -111,21 +116,41 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
     * Select **And** and **Or** between containers to build more complex definitions for your eligible data population. 
       
-1. You can manage datasets containing internal or external factors in the **[!UICONTROL Factor dataset]** section.
-
-   ![Model - Factor dataset step](../assets/model-factors-dataset-step.png)
+1. You can manage datasets containing internal or external factors in the **[!UICONTROL Factor]** section.
 
    * To add a factor dataset, select **[!UICONTROL Add Factor]**. You can add a maximum of 30 factors to a model.
-     
+  
+        ![Model - Factor step](../assets/model-factors-dataset-step.png)
+      
      1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. The available factors are the factors for which you have defined a harmonized field in [dataset rules](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+      
         Based on the selected dataset, the **[!UICONTROL Factor type]** is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
 
      1. Select the **[!UICONTROL Impact on conversion]** from the drop-down menu. Available options are: **[!UICONTROL Auto]**, **[!UICONTROL Positive]**, or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto]**, which allows the model to determine the impact of the factor dataset.
 
    * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
+   * If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling), you need to define causal relationships and factor causul relationships for factors you add to the model.
+
+     ![Model - Factor step funnel](../assets/model-factors-dataset-step-funnel.png)
+ 
+     * To define causal relationships, in the **[!UICONTROL Causal relationship]**s table, select ![SelectBox](/help/assets/icons/SelectBox.svg) for each channel (**[!UICONTROL Source]**) whether the upper conversion KPI (selected as **[!UICONTROL Upper funnel conversion]** in **[!UICONTROL Full funnel modeling]** section) and lower converion KPI (selected as **[!UICONTROL Conversion]** in **[!UICONTROL Conversion goal]** section) is influenced by the channel.
+
+       You can select ![SelectBox](/help/assets/icons/SelectBox.svg) the column header for upper conversion KPI and lower conversion KPI to quickly define that all channels influence the KPI. 
+
+     * When you have defined factors, you define factor causal relationships. To define gactor causal relationships, in the **[!UICONTROL Factor causal relationships]** table, select ![SelectBox](/help/assets/icons/SelectBox.svg) for each factor (**[!UICONTROL Factor]**) whether the upper conversion KPI (selected as **[!UICONTROL Upper funnel conversion]** in **[!UICONTROL Full funnel modeling]** section) and lower converion KPI (selected as **[!UICONTROL Conversion]** in **[!UICONTROL Conversion goal]** section) is influenced by the factor.
+
+       You can select ![SelectBox](/help/assets/icons/SelectBox.svg) the column header for upper conversion KPI and lower conversion KPI to quickly define that all factors influence the KPI.
+      
 
 1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
+
+   If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling):
+   
+   * To define the lookback window for lower funnel, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** for **[!UICONTROL Lower funnel]** in the **[!UICONTROL Define lookback window]** section.
+
+   * To define the lookback window for upper funnel, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the upper funnel conversion]** for **[!UICONTROL Upper funnel]** in the **[!UICONTROL Define lookback window]** section.
+    
 
 1. To define the training window for a model, at **[!UICONTROL Define training window]**, select where you would like to start scoring conversions.
 
@@ -155,7 +180,14 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
 
 In the **[!UICONTROL Spend share]** section:
 
-* To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
+* To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. 
+
+  If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling):
+
+  * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share for the lower funnel]**.
+  * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share for the upper funnel]**.
+  
+* This setting is recommended, especially in the following scenarios:
   * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
   * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
   
@@ -163,6 +195,8 @@ In the **[!UICONTROL Spend share]** section:
   >
   >For one-off investments (for example a Super Bowl ad), incorporate that data as a factor instead of relying on spend share.
   >
+
+  
 
 ### MTA
 
@@ -178,6 +212,10 @@ In the **[!UICONTROL Prior knowledge]** section:
 ![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
 
 1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
+
+1. If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling):
+
+   * Select either **[!UICONTROL Lower funnel]** or **[!UICONTROL Upper funnel]** from **[!UICONTROL Select metric]** as the funnel metric to use for prior knowledge.
 
 1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
 
@@ -197,6 +235,8 @@ The channel adstock configuration helps you to capture channel-specific nuances.
 ![Channel adstock](/help/assets/channel-ad-stock.png)
 
 To configure channel adstock:
+
+* If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling), select **[!UICONTROL Lower funnel]** or **[!UICONTROL Upper funnel]** from **[!UICONTROL Select metric]** as the funnel metric to use for channel adstock.
 
 * For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
 
