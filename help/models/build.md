@@ -2,7 +2,7 @@
 title: Build Models In Marketing Campaign Analytics
 description: Learn how to build models in Marketing Campaign Analytics including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
 feature: Models
-solution: Marketing Campaign Analytics
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
