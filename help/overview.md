@@ -1,14 +1,14 @@
 ---
-title: Mix Modeler guide
-description: Learn how to measure campaigns and optimize planning holistically across all channels with Mix Modeler.
-short-description: Learn how to measure campaigns and optimize planning holistically across all channels with Mix Modeler.
+title: Marketing Campaign Analytics guide
+description: Learn how to measure campaigns and optimize planning holistically across all channels with Marketing Campaign Analytics.
+short-description: Learn how to measure campaigns and optimize planning holistically across all channels with Marketing Campaign Analytics.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
 TQID: https://experienceleague.adobe.com/XGSUhG3iwdjNowmk8AM87eCKv-JZF1DDAYzW0uktpes
 autotag-review: '2026-05-01T09:02:01.855Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
@@ -52,9 +52,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
-# Adobe Mix Modeler guide
+# Adobe Marketing Campaign Analytics guide
 
-This technical documentation guide provides self help assistance for Adobe **Mix Modeler**. Mix Modeler is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Mix Modeler is built on top of Adobe Experience Platform and powered by Adobe Sensei. 
+This technical documentation guide provides self help assistance for Adobe **Marketing Campaign Analytics** (formerly known as Adobe **[!UICONTROL Mix Modeler]**). Marketing Campaign Analytics is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Marketing Campaign Analytics is built on top of Adobe Experience Platform and powered by Adobe Sensei. 
 
 ## Start with the basics
 
@@ -62,11 +62,11 @@ This technical documentation guide provides self help assistance for Adobe **Mix
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>Quick start</strong><br/>Get an overview of and insight into the workflow of Mix Modeler.</div>
+    <div><strong>Quick start</strong><br/>Get an overview of and insight into the workflow of Marketing Campaign Analytics.</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>Ingest data</strong><br/>Learn how to ingest event and aggregate or summary data into Mix Modeler.</div>
+    <div><strong>Ingest data</strong><br/>Learn how to ingest event and aggregate or summary data into Marketing Campaign Analytics.</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>

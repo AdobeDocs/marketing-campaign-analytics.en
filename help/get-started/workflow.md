@@ -1,12 +1,12 @@
 ---
-title: Mix Modeler workflow
-description: Understand the typical workflow for Mix Modeler.
+title: Marketing Campaign Analytics workflow
+description: Understand the typical workflow for Marketing Campaign Analytics.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
 TQID: https://experienceleague.adobe.com/PAKsHAqpIeBVCJGIPS2ZqWw-vVpS9LUpYdJRFKP0ynY
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
     internal-label: Datasets
@@ -59,31 +59,31 @@ topic_v2:
     internal-label: Insights
 autotag-review: '2026-05-01T09:15:33.908Z'
 ---
-# Mix Modeler workflow
+# Marketing Campaign Analytics workflow
 
-See this video for an introduction to the user workflow in Mix Modeler.
+See this video for an introduction to the user workflow in Marketing Campaign Analytics.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
-A typical workflow in Mix Modeler consists of the following activities:
+A typical workflow in Marketing Campaign Analytics consists of the following activities:
 
 ![Alt text](/help/assets/ApplicationWorkflow.svg)
 
 |  | Activity | Description |
 |---|---|---|
 | ![Data](/help/assets/icons/Data.svg){width="100"} | [**Ingest data**](../ingest-data/overview.md) | Ingest event data from Experience Platform (for example Adobe Analytics, Web SDK, other sources), aggregated data from marketing channels (for example TV, walled gardens, email, owned and operated activities), external factors data from customers (for example price changes in subscription service) and internal factors data (for example holiday plans). |
-| ![DataCheck](/help/assets/icons/DataCheck.svg){width="100"} | [**Harmonize data**](../harmonize-data/overview.md) | Configure mapping rules and conflict resolution rules to merge the various marketing datasets needed to measure and plan campaign performance in Mix Modeler. |
+| ![DataCheck](/help/assets/icons/DataCheck.svg){width="100"} | [**Harmonize data**](../harmonize-data/overview.md) | Configure mapping rules and conflict resolution rules to merge the various marketing datasets needed to measure and plan campaign performance in Marketing Campaign Analytics. |
 |  ![FileConfig](/help/assets/icons/FileGear.svg){width="100"} | [**Build models**](../models/overview.md) | Buid model instances with marketing touchpoints (for example channels), conversion definitions and internal and external factors. |
 | ![FileData](/help/assets/icons/FileData.svg){width="100"}  | [**Train and score models**](../models/overview.md) | Create aggregate and event-level scores using machine-learning training and scoring.  |
-| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**Build plans**](../plans/overview.md) |  Create and build plans. Determine the best allocation of marketing funds to achieve a business objective by using the output of Mix Modeler's models. |
+| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**Build plans**](../plans/overview.md) |  Create and build plans. Determine the best allocation of marketing funds to achieve a business objective by using the output of Marketing Campaign Analytics's models. |
 | ![Dashboard](/help/assets/icons/Dashboard.svg){width="100"} | [**Overview dashboard**](../dashboard/overview.md) | Get insights on harmonized data, models, and plans, using various configurable visualizations. |
 
 {style="table-layout:auto"}
 
-An overview of how input data can flow into Mix Modeler and how Mix Modeler can produce output data for its own interface but also for other solutions, like Customer Journey Analytics, is illustrated below.
+An overview of how input data can flow into Marketing Campaign Analytics and how Marketing Campaign Analytics can produce output data for its own interface but also for other solutions, like Customer Journey Analytics, is illustrated below.
 
-![Mix Modeler input output data flow](../assets/mm-input-output.png)
+![Marketing Campaign Analytics input output data flow](../assets/mm-input-output.png)
 
 <!--
 The detailed data-oriented flowchart below illustrates how:

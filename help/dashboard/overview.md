@@ -1,13 +1,13 @@
 ---
 title: Home overview
-description: Learn how to overview your harmonized data and plans in Mix Modeler.
+description: Learn how to overview your harmonized data and plans in Marketing Campaign Analytics.
 feature: Dashboard, Plans, Harmonized Data, Models
 exl-id: ef034268-ef0a-4c9b-9dd5-d98ff8150b95
 autotag-review: '2026-05-01T09:18:23.288Z'
 TQID: 'https://experienceleague.adobe.com/jmYXD3MDg584DgtIJT8MeCj2VgCJ-Dgm8H0TceP7aG0'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -35,9 +35,9 @@ role_v2:
 # Home overview
 
 
-The Home overview screen in Mix Modeler displays an overview of your harmonized data and your plans through various configurable visualizations.
+The Home overview screen in Marketing Campaign Analytics displays an overview of your harmonized data and your plans through various configurable visualizations.
 
-To access the overview, select ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** from the left rail in the Mix Modeler interface.
+To access the overview, select ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** from the left rail in the Marketing Campaign Analytics interface.
 
 From here you can get more details on:
 

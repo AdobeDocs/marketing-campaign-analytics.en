@@ -1,12 +1,12 @@
 ---
 title: Harmonize datasets overview
-description: Learn how to harmonize data in Mix Modeler.
+description: Learn how to harmonize data in Marketing Campaign Analytics.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
 TQID: https://experienceleague.adobe.com/9ki9Q-ZAmwmiyYFt-EAaa1ybylaoMauTvoxQ9ux1IEI
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -33,12 +33,12 @@ autotag-review: '2026-05-01T09:10:10.340Z'
 ---
 # Harmonize datasets overview
 
-The data in Mix Modeler is of different nature depending on the source of data. The data can be:
+The data in Marketing Campaign Analytics is of different nature depending on the source of data. The data can be:
 
 * aggregate or summary data, for example collected from walled garden data sources or offline advertising data gathered (like spend) from running a billboard campaign, an event, or a physical ad campaign,
 * event data, for example from first party data sources. This event data can be data collected through the Adobe Analytics source connector from Adobe Analytics, or through the Experience Platform Web or Mobile SDK or Edge Network API, or data ingested using source connectors.
 
-The harmonization service of Mix Modeler assimilates the aggregate and event data into a consistent data view. This data view is the source for the models in Mix Modeler. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
+The harmonization service of Marketing Campaign Analytics assimilates the aggregate and event data into a consistent data view. This data view is the source for the models in Marketing Campaign Analytics. The service uses the highest granularity across the different datasets. For example, if one dataset has a granularity of monthly and remaining datasets do have weekly and daily granularity, the harmonization service creates a data view using monthly granularity.
 
 ## Factors
 
@@ -48,7 +48,7 @@ Factors are key to model building and you want to understand what impacts the bu
 
 * External factors are factors outside the control of your organization but which can still impact the conversions you achieve. Examples are CPI, S&P 500, and more.
 
-The Factors functionality in Mix Modeler uses a harmonized factors workflow. This workflow simplifies how factors are managed, delivers consistency across models, and provides an intuitive experience.
+The Factors functionality in Marketing Campaign Analytics uses a harmonized factors workflow. This workflow simplifies how factors are managed, delivers consistency across models, and provides an intuitive experience.
 
 As part of the harmonized factors workflow:
 
@@ -67,7 +67,7 @@ When you duplicate a model that uses the dataset based factors workflow:
 
 ## An example of harmonized data
 
-Imagine you have the following datasets available for Mix Modeler.
+Imagine you have the following datasets available for Marketing Campaign Analytics.
 
 **Dataset 1**
  
@@ -160,7 +160,7 @@ To build a harmonized dataset, like in the simplified [example](#an-example-of-h
 
 ## View harmonized data
 
-To see your harmonized data, in the Mix Modeler interface:
+To see your harmonized data, in the Marketing Campaign Analytics interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** from the left rail.
    

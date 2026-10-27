@@ -1,13 +1,13 @@
 ---
 title: Policies
-description: Learn how to access policies from Mix Modeler.
+description: Learn how to access policies from Marketing Campaign Analytics.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
 TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
@@ -35,7 +35,7 @@ topic_v2:
 
 Once you go through the workflow to create a model and submit the model's configuration, [policy enforcement](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) checks to see if there are any violations. If a policy violation occurs, a popover appears indicating that one or more policies have been violated. This check is to ensure that your data operations and marketing actions within Experience Platform are compliant with data usage policies.
 
-By default, Mix Modeler checks for violations of Adobe defined policies associated with the following labels and marketing actions:
+By default, Marketing Campaign Analytics checks for violations of Adobe defined policies associated with the following labels and marketing actions:
 
 | Policy name | Associated label | Associated marketing action |
 |---|---|---|
@@ -77,7 +77,7 @@ The data governance policy violation detected popovers provide specific informat
 The ![Privacy](/help/assets/icons/Privacy.svg) **[!UICONTROL Policies]** selection in the left rail provides access to the [!UICONTROL Policies] interface of Experience Platform, allowing to manage your policies, labels and marketing actions.
 
 <!--
-Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
+Currently,  Marketing Campaign Analytics does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)
 -->
 
 >[!MORELIKETHIS]

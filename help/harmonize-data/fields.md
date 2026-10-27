@@ -1,12 +1,12 @@
 ---
 title: Harmonized fields
-description: Learn how to define fields to use as part of harmonizing your data in Mix Modeler.
+description: Learn how to define fields to use as part of harmonizing your data in Marketing Campaign Analytics.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
 TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -30,7 +30,7 @@ Harmonized fields let you define the fields you want to use as part of the harmo
 
 ## Global harmonization fields
 
-The default available global harmonization fields in Mix Modeler are: 
+The default available global harmonization fields in Marketing Campaign Analytics are: 
 
 
 | Field name             | Display name           | Category  | Data Type | Comment   |
@@ -65,7 +65,7 @@ You can add, edit, or delete your own harmonized fields on top of these global h
 
 ## Manage harmonized fields
 
-To see a table of the available harmonized fields, in the Mix Modeler interface:
+To see a table of the available harmonized fields, in the Marketing Campaign Analytics interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -91,7 +91,7 @@ To see a table of the available harmonized fields, in the Mix Modeler interface:
 
 ### Add a harmonized field
 
-To add a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
+To add a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Marketing Campaign Analytics:
 
 1. Select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
@@ -117,7 +117,7 @@ To add a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg
 
 You can only edit harmonized fields you created earlier (owner is client). You cannot edit a global harmonized field.
 
-To edit a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
+To edit a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Marketing Campaign Analytics:
 
 1. Select the harmonized field that you want to edit. For example, **[!UICONTROL Region]**.
 
@@ -131,7 +131,7 @@ To edit a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.sv
 
 You can only delete harmonized fields you created earlier (owner is client). You cannot delete a global harmonized field.
 
-To delete a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Mix Modeler:
+To delete a harmonized field, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** interface in the Marketing Campaign Analytics:
 
 1. Select the harmonized field that you want to delete, for example **[!UICONTROL Region]**.
 

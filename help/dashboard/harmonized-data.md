@@ -1,13 +1,13 @@
 ---
 title: Harmonized data dashboard
-description: Learn how to use the harmonized data overview dashboard in Mix Modeler.
+description: Learn how to use the harmonized data overview dashboard in Marketing Campaign Analytics.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
 autotag-review: '2026-05-01T09:17:34.958Z'
 TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -31,7 +31,7 @@ topic_v2:
 ---
 # Harmonized data
 
-The **[!UICONTROL Harmonized data]** tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
+The **[!UICONTROL Harmonized data]** tab in Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides insights into the harmonized data you have configured to be used as part of the ingested data and harmonized data setup.
 
 The overview shows four KPI status card visualizations  (top row) and six other configurable visualizations .
 

@@ -1,12 +1,12 @@
 ---
 title: Ingest data overview
-description: Learn how to ingest data into Mix Modeler.
+description: Learn how to ingest data into Marketing Campaign Analytics.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
 TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
     internal-label: Datasets
@@ -30,7 +30,7 @@ autotag-review: '2026-05-01T09:11:34.506Z'
 ---
 # Ingest data overview
 
-Mix Modeler works with event level data, aggregate or summary marketing effort data from various walled gardens. And with aggregate or summary data from any other source, like offline advertising, internal factors or external factors. 
+Marketing Campaign Analytics works with event level data, aggregate or summary marketing effort data from various walled gardens. And with aggregate or summary data from any other source, like offline advertising, internal factors or external factors. 
 
 Customers can use any kind of data that is ingested into Experience Platform as datasets and which is based on schemas using the XDM ExperienceEvent or XDM Summary Metrics as the base class. 
 
@@ -41,11 +41,11 @@ For example:
 * Aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources or offline advertising data.
 * Non-marketing aggregate or summary data containing internal or external factors that are useful for model building.
 
-You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Such as the Experience Platform SDKs, APIs, source connectors, and streaming and batch ingestion. To learn more about ingesting your data in Experience Platform for use in Adobe Mix Modeler, see the [Data Ingestion overview](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
+You can use any kind of mechanism, supported by Experience Platform, to ingest your experience event-level, aggregate marketing effort data, and data from other sources. Such as the Experience Platform SDKs, APIs, source connectors, and streaming and batch ingestion. To learn more about ingesting your data in Experience Platform for use in Adobe Marketing Campaign Analytics, see the [Data Ingestion overview](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home).
 
 ## Guidelines
 
-To ingest data into Experience Platform for use with Mix Modeler, follow these guidelines:
+To ingest data into Experience Platform for use with Marketing Campaign Analytics, follow these guidelines:
 
 * There should not be any overlap in the incremental data that is added to the datasets.
 * All data from a single source should be of the same granularity.
@@ -55,7 +55,7 @@ To ingest data into Experience Platform for use with Mix Modeler, follow these g
 
 ## Examples
 
-Find below some examples of data typically used in Mix Modeler beyond the more standard experience event data.
+Find below some examples of data typically used in Marketing Campaign Analytics beyond the more standard experience event data.
 
 +++ Aggregate marketing effort data
 
@@ -97,12 +97,12 @@ Find below some examples of data typically used in Mix Modeler beyond the more s
 
 +++
 
-To work with data in Mix Modeler, you need data collected in datasets and modeled after schemas in Experience Platform. The Mix Modeler interface provides easy access to both the Experience Platform Schemas and Datasets UI.
+To work with data in Marketing Campaign Analytics, you need data collected in datasets and modeled after schemas in Experience Platform. The Marketing Campaign Analytics interface provides easy access to both the Experience Platform Schemas and Datasets UI.
 
 
 ## Validate
 
-To validate whether your data is properly available in Mix Modeler, you can do the following:
+To validate whether your data is properly available in Marketing Campaign Analytics, you can do the following:
 
 * Use visualizations in the [Overview](/help/overview.md).
 * Download and inspect data from [Harmonized data](/help/harmonize-data/overview.md) in Harmonized datasets.

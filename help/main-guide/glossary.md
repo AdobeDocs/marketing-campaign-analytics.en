@@ -1,13 +1,13 @@
 ---
-title: Mix Modeler glossary
-description: Mix Modeler glossary.
+title: Marketing Campaign Analytics glossary
+description: Marketing Campaign Analytics glossary.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
 exl-id: e002a0c0-71a4-418e-90c4-819649433a7d
 autotag-review: '2026-05-01T09:09:18.318Z'
 TQID: 'https://experienceleague.adobe.com/WvkcvEy6h4cYz28vJXkwVBJ-UIgHyscRj9eTbPQY1DY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
@@ -57,7 +57,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
 ---
-# Mix Modeler glossary
+# Marketing Campaign Analytics glossary
 
 The following terminology and acronyms are used in the documentation:
 

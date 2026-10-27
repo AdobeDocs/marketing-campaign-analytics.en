@@ -1,12 +1,12 @@
 ---
 title: Marketing touchpoints
-description: Learn how to create marketing touchpoints to use as part of harmonizing your data in Mix Modeler.
+description: Learn how to create marketing touchpoints to use as part of harmonizing your data in Marketing Campaign Analytics.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 TQID: https://experienceleague.adobe.com/6HEgtbsEegA-XyeNQTCQd5JhMZyKZ9BzxPAiJGOr1N0
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -34,7 +34,7 @@ You define marketing touchpoints to assist you in attribution analysis.
 
 ## Manage marketing touchpoints
 
-To see a table of the available marketing touchpoints in the Mix Modeler interface:
+To see a table of the available marketing touchpoints in the Marketing Campaign Analytics interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -54,7 +54,7 @@ The table columns specify details about the marketing touchpoint:
 
 ## Add a marketing touchpoint
 
-To add a marketing touchpoint, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interface in Mix Modeler:
+To add a marketing touchpoint, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** interface in Marketing Campaign Analytics:
 
 1. Select ![Add](/help/assets/icons/AddCircle.svg) Add marketing touchpoint.
 
@@ -100,7 +100,7 @@ To view a report of a marketing touchpoint:
 
    ![Marketing touchpoint view report](../assets/marketingtouchpoint-view-report.png)
 
-   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** dropdown menu.
+   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** drop-down menu.
    * To change the period to report on, enter a start and end date or use ![Calendar](/help/assets/icons/Calendar.svg) to define a period in the calendar popup.
 
 1. Select **[!UICONTROL Close]** to close the dialog.

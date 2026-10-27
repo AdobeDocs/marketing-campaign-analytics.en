@@ -1,14 +1,14 @@
 ---
-title: Mix Modeler overview
-description: Get an overview of the functionality and capabilities of Mix Modeler.
-short-description: Get an overview of the functionality and capabilities of Mix Modeler.
+title: Marketing Campaign Analytics overview
+description: Get an overview of the functionality and capabilities of Marketing Campaign Analytics.
+short-description: Get an overview of the functionality and capabilities of Marketing Campaign Analytics.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 autotag-review: '2026-05-01T09:14:10.130Z'
 TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
@@ -41,19 +41,19 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 ---
-# Mix Modeler overview
+# Marketing Campaign Analytics overview
 
-Mix Modeler, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. Its unified methodology measures incrementally at both marketing touchpoints and aggregate levels, while ensuring fully consistent results.
+Marketing Campaign Analytics, powered by Adobe Sensei, enables marketers to measure campaigns and optimize planning holistically across all channels: paid, earned, and owned. Its unified methodology measures incrementally at both marketing touchpoints and aggregate levels, while ensuring fully consistent results.
 
-Mix Modeler provides the incremental impact of all marketing activities on business and campaign outcomes through a holistic (end-to-end) measurement application for digital and offline marketing. 
+Marketing Campaign Analytics provides the incremental impact of all marketing activities on business and campaign outcomes through a holistic (end-to-end) measurement application for digital and offline marketing. 
 
-Mix Modeler provides the following types of optimized and actionable insights at a strategic and tactical level, so you can better understand:
+Marketing Campaign Analytics provides the following types of optimized and actionable insights at a strategic and tactical level, so you can better understand:
 
 * marketing spend and resulting performance across various channels, and
 * recommended investment levels to achieve future business objectives.
 
 
-To accomplish this functionality, Mix Modeler combines: 
+To accomplish this functionality, Marketing Campaign Analytics combines: 
 
 * bottoms-up (event-level) data and top-down (aggregate-level) data,
 * external market factors and internal factors, and
@@ -66,7 +66,7 @@ The AI/ML bi-directional transfer learning unifies marketing mix modeling (MMM) 
 
 ## Capabilities
 
-Mix Modeler offers the following capabilities:
+Marketing Campaign Analytics offers the following capabilities:
 
 | Capability | Description |
 |---|---|
@@ -79,12 +79,12 @@ Mix Modeler offers the following capabilities:
 
 >[!MORELIKETHIS]
 >
->[Understand the Mix Modeler workflow](workflow.md)
+>[Understand the Marketing Campaign Analytics workflow](workflow.md)
 
 
 ### Marketing Mix Modeling (MMM)
 
-Marketing mix modeling in Mix Modeler is a privacy-friendly machine learning analysis used to measure the incremental impact of various marketing tactics and business factors on conversion metrics. It helps businesses and marketers to understand
+Marketing mix modeling in Marketing Campaign Analytics is a privacy-friendly machine learning analysis used to measure the incremental impact of various marketing tactics and business factors on conversion metrics. It helps businesses and marketers to understand
 
 * the effectiveness of their marketing strategies, 
 * the effects of business factors on customer behavior, and 
@@ -92,7 +92,7 @@ Marketing mix modeling in Mix Modeler is a privacy-friendly machine learning ana
   
 This comprehensive analysis empowers businesses to allocate marketing budgets strategically across various business lines, regions, channels, and campaigns while also providing predictive insights into the business impact of future events.
 
-Mix Modeler's marketing mix modeling capabilities are foundational to solving the following use cases:
+Marketing Campaign Analytics's marketing mix modeling capabilities are foundational to solving the following use cases:
 
 * Executive reporting: Allow executives to understand the true incremental impact of marketing, both as a whole and by channel, region, SKU, etc.
 * Strategic planning: Inform long-term marketing strategies and set realistic goals and benchmarks for future campaigns
@@ -102,9 +102,9 @@ Mix Modeler's marketing mix modeling capabilities are foundational to solving th
 
 ### Multi-Touch Attribution (MTA)
 
-The multi-touch attribution in Mix Modeler is an optional machine learning analysis that you can leverage to attribute credits to event-level touchpoints leading to conversion events. This attribution is used by marketers to help quantify the marketing impact of each individual marketing touchpoint across customer journeys that are trackable. These digital marketing campaign touchpoints typically are display ad clicks, email sends, email opens, and paid search clicks. Multi-touch attribution cannot measure most offline touchpoints such as print ads, billboards, or TV commercials and business factors. These touchpoints only have summary level data that cannot be stitched to customer journeys. 
+The multi-touch attribution in Marketing Campaign Analytics is an optional machine learning analysis that you can leverage to attribute credits to event-level touchpoints leading to conversion events. This attribution is used by marketers to help quantify the marketing impact of each individual marketing touchpoint across customer journeys that are trackable. These digital marketing campaign touchpoints typically are display ad clicks, email sends, email opens, and paid search clicks. Multi-touch attribution cannot measure most offline touchpoints such as print ads, billboards, or TV commercials and business factors. These touchpoints only have summary level data that cannot be stitched to customer journeys. 
 
-Mix Modeler's multi-touch attribution supports two categories of scores:
+Marketing Campaign Analytics's multi-touch attribution supports two categories of scores:
 
 * Algorithmic scores, which include incremental and influenced scores:
   * The influenced score is the fraction of the conversion that each marketing touchpoint is responsible for.
@@ -112,13 +112,13 @@ Mix Modeler's multi-touch attribution supports two categories of scores:
     
 * Rule-based scores, which include First touch, Last touch, Linear, U-shaped, and Time-Decay.
 
-You can use the multi-touch attribution capability of Mix Modeler in the following use cases:
+You can use the multi-touch attribution capability of Marketing Campaign Analytics in the following use cases:
 
 * Campaign budget allocation: Inform budget allocation decisions across marketing channel.
 * Campaign optimization: Within each channel, understand which campaigns, creatives, and keywords are working better for which SKUs or Geos. This understanding allows you to look at each channel so the marketing team can optimize their tactics.
 * Full-funnel event-level attribution: Understand marketing's impact across the entire customer journey. For example, free account signup to paid conversion and beyond.
 * Partner evaluations: Evaluate the effectiveness of agencies and partners, based on attribution results.
 
-See [Model Insights - Attribution](../models/insights.md#attribution) on how to access the multi-touch attribution insights within Mix Modeler.
+See [Model Insights - Attribution](../models/insights.md#attribution) on how to access the multi-touch attribution insights within Marketing Campaign Analytics.
 
 

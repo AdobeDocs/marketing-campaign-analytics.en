@@ -1,13 +1,13 @@
 ---
 title: Models Overview
-description: Learn how to build, train, score, and manage machine learning models in Mix Modeler to measure and predict marketing outcomes.
+description: Learn how to build, train, score, and manage machine learning models in Marketing Campaign Analytics to measure and predict marketing outcomes.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
 TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
 autotag-review: '2026-05-01T08:59:10.903Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
@@ -31,11 +31,11 @@ topic_v2:
 ---
 # Models overview
 
-The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling.
+The model functionality in Marketing Campaign Analytics allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling.
 
 The models are based on the harmonized data that you create as part of the application workflow.
 
-A model in Mix Modeler is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Mix Modeler allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
+A model in Marketing Campaign Analytics is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Marketing Campaign Analytics allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
 
 A model requires:
 
@@ -69,11 +69,11 @@ Upper funnel tactics often get lesser credit in a conversion focused MMM model. 
 
 ## Build models
 
-To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
+To build a model, use the Marketing Campaign Analytics step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
 
 ## Manage models
 
-To view a table of your current models, in the Mix Modeler interface:
+To view a table of your current models, in the Marketing Campaign Analytics interface:
 
 1. Select ![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
@@ -83,8 +83,8 @@ To view a table of your current models, in the Mix Modeler interface:
 
    | Column name | Details |
    |---|---|
-   | **[!UICONTROL Name]** | Name of the model |
-   | **[!UICONTROL Description]** | Description of the model |
+   | **[!UICONTROL Name]** | Name of the model. If a model is enabled for full funnel modeling, you see a [!BADGE Full funnel]{type=Informative} bage.|
+   | **[!UICONTROL Description]** | Description of the model. |
    | **[!UICONTROL Conversion event]** | The conversion you have selected for the model. |
    | **[!UICONTROL Run frequency]** | The running frequency of training the model. |
    | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
@@ -141,7 +141,9 @@ To view more details of a model:
 
 1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
-1. Select ![Info](/help/assets/icons/Info.svg) for a model to show a pop-up with details.
+1. Select ![Info](/help/assets/icons/Info.svg) for a model to show a pop-up with details like **[!UICONTROL Description]**, **[!UICONTROL Run frequency]**, **[!UICONTROL Last run status]**, **[!UICONTROL Spend share]**, and more.
+
+   
 
 
 ### Duplicate
@@ -174,9 +176,9 @@ You can edit the name, description and the scheduling of training and scoring of
 
          * **[!UICONTROL Daily]**: Enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
          * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
-         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
+         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every drop-down menu and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
 
-      1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+      1. Select a **[!UICONTROL Training frequency]** from the drop-down menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
    * To update the [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), in the **[!UICONTROL Granular Insights Reporting Fields]** section:
      1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.

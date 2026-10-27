@@ -1,13 +1,13 @@
 ---
-title: Build Models In Mix Modeler
-description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
+title: Build Models In Marketing Campaign Analytics
+description: Learn how to build models in Marketing Campaign Analytics including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
 feature: Models
-solution: Mix Modeler
+solution: Marketing Campaign Analytics
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
     internal-label: Datasets
@@ -37,13 +37,13 @@ topic_v2:
 
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
-In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Mix Modeler], select **[!UICONTROL Open model canvas]**.
+In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Marketing Campaign Analytics], select **[!UICONTROL Open model canvas]**.
 
 ## Setup
 
 You define a name and a description in the **[!UICONTROL Setup]** step:
 
-1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI features of Mix Modeler`.
+1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI features of Marketing Campaign Analytics`.
 
       ![Model name and description](/help/assets/model-name-description.png)
 
@@ -62,13 +62,13 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 1. If you want to enable [full funnel modeling](./overview.md#full-funnel-modeling), in the **[!UICONTROL Full funnel model]** section:
 
    1. Select **[!UICONTROL Enable full funnel modeling]**. 
-   1. Select an upper conversion from the **[!UICONTROL Upper funnel conversion]** dropdown menu.
+   1. Select an upper conversion from the **[!UICONTROL Upper funnel conversion]** drop-down menu.
 
 1. In the **[!UICONTROL Conversion goal]** section:
 
     ![Model - conversion step](/help/assets/model-conversion-step.png)
 
-    1. Select a conversion from the **[!UICONTROL Conversion]** dropdown menu. The available conversions are the conversions that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**.
+    1. Select a conversion from the **[!UICONTROL Conversion]** drop-down menu. The available conversions are the conversions that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**.
 
     1. You can select ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** to create a conversion directly from within the model configuration.
 
@@ -79,7 +79,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    ![Model - marketing touchpoint step](/help/assets/model-marketing-touchpoint-step.png)
 
-   1. Select one or more marketing touchpoints from the **[!UICONTROL Touchpoint include]** dropdown menu.
+   1. Select one or more marketing touchpoints from the **[!UICONTROL Touchpoint include]** drop-down menu.
 
       * You can use ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a touchpoint.
       * You can use **[!UICONTROL Clear all]** to remove all touchpoints.
@@ -158,7 +158,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    You can select between: 
 
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+   * **[!UICONTROL Have Marketing Campaign Analytics select a helpful training window]** and 
 
    * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
@@ -267,9 +267,9 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
 
      * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
      * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg)  to define the time.  
-     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg)  to define the time.
+     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every drop-down menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg)  to define the time.
 
-  1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+  1. Select a **[!UICONTROL Training frequency]** from the drop-down menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
 
 ### Granular insights reporting fields

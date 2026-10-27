@@ -1,12 +1,12 @@
 ---
 title: Datasets
-description: Learn how to manage the datasets required to ingest data into Mix Modeler.
+description: Learn how to manage the datasets required to ingest data into Marketing Campaign Analytics.
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
 TQID: https://experienceleague.adobe.com/gcb3YrQjRpQfKspkh6T-WZdM-2HosqDNb3otqym-cBk
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
     internal-label: Datasets
@@ -28,9 +28,9 @@ autotag-review: '2026-05-01T09:11:08.694Z'
 ---
 # Datasets
 
-To manage datasets, containing the data you want to ingest in Experience Platform and use in Mix Modeler:
+To manage datasets, containing the data you want to ingest in Experience Platform and use in Marketing Campaign Analytics:
 
-1. Go to the Mix Modeler interface.
+1. Go to the Marketing Campaign Analytics interface.
 
 1. Select ![Data](/help/assets/icons/Data.svg) **[!UICONTROL Datasets]**, underneath **[!UICONTROL SETUP]**. 
 

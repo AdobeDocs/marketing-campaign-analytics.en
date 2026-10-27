@@ -1,14 +1,14 @@
 ---
-user-guide-title: Mix Modeler Guide
-breadcrumb-title: Mix Modeler Guide
-user-guide-description: Learn how to use Mix Modeler.
+user-guide-title: Marketing Campaign Analytics Guide
+breadcrumb-title: Marketing Campaign Analytics Guide
+user-guide-description: Learn how to use Marketing Campaign Analytics.
 ---
-# Mix Modeler Guide {#using}
+# Marketing Campaign Analytics Guide {#using}
 
-+ [Mix Modeler Guide](/help/overview.md)
++ [Marketing Campaign Analytics Guide](/help/overview.md)
 
 + Get Started {#get-started}
-  + [What is Mix Modeler?](/help/get-started/about.md)
+  + [What is Marketing Campaign Analytics?](/help/get-started/about.md)
   + [Application workflow](/help/get-started/workflow.md)
 
 + Home {#dashboard}

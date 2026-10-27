@@ -1,12 +1,12 @@
 ---
 title: Conversions
-description: Learn how to create conversions to use as part of harmonizing your data in Mix Modeler.
+description: Learn how to create conversions to use as part of harmonizing your data in Marketing Campaign Analytics.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -35,7 +35,7 @@ You define marketing conversions for attribution analysis.
 
 ## Manage conversions
 
-To see a table of the available conversions, in the Mix Modeler interface:
+To see a table of the available conversions, in the Marketing Campaign Analytics interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -55,7 +55,7 @@ The table columns specify details about the conversion:
 
 ## Add a conversion
 
-To add a conversion, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interface in Mix Modeler:
+To add a conversion, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interface in Marketing Campaign Analytics:
 
 1. Select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -100,7 +100,7 @@ To view a report of a conversion:
 
    ![Conversion view report](../assets/conversion-view-report.png)
 
-   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** dropdown menu.
+   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** drop-down menu.
    * To change the period to report on, enter a start and end date or use ![Calendar](/help/assets/icons/Calendar.svg) to define a period in the calendar popup.
 
 1. Select **[!UICONTROL Close]** to close the dialog.
