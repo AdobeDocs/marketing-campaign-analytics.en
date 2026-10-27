@@ -6,7 +6,7 @@ exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
 TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Marketing Campaign Analytics
+    internal-label: Mix Modeler
 feature_v2:
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
     internal-label: Schemas

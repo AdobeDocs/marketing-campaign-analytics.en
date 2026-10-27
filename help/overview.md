@@ -8,7 +8,7 @@ TQID: https://experienceleague.adobe.com/XGSUhG3iwdjNowmk8AM87eCKv-JZF1DDAYzW0uk
 autotag-review: '2026-05-01T09:02:01.855Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Marketing Campaign Analytics
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
@@ -54,7 +54,7 @@ topic_v2:
 ---
 # Adobe Marketing Campaign Analytics guide
 
-This technical documentation guide provides self help assistance for Adobe **Marketing Campaign Analytics** (formerly known as Adobe **[!UICONTROL Mix Modeler]**). Marketing Campaign Analytics is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Marketing Campaign Analytics is built on top of Adobe Experience Platform and powered by Adobe Sensei. 
+This technical documentation guide provides self help assistance for Adobe **Marketing Campaign Analytics** (formerly known as Adobe **[!UICONTROL Mix Modeler]**). Marketing Campaign Analytics is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Marketing Campaign Analytics is built on top of Adobe Experience Platform.
 
 ## Start with the basics
 

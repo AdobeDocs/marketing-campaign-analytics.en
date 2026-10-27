@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/0MxMv6Due-i9-8JxKTb3vk2NDZ5mc6Pj4yEe-li
 autotag-review: '2026-05-01T09:07:55.299Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Marketing Campaign Analytics
+    internal-label: Mix Modeler
 feature_v2:
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
     internal-label: Administration
