@@ -47,8 +47,8 @@ The table columns specify details about the conversion:
 | --- | ---|
 | Name | The name of the conversion.  |
 | Revenue | The harmonized data metric to use to calculate revenue from a conversion.  |
-| Conversion metric | The harmonized data metric to use as the conversion metric for analysis. |
-| Category | The conversion category of the conversion. |
+| Conversion metric | The harmonized data metric to use as the conversion metric for analysis. This denotes primary numeric business outcome, such as: orders, revenue, number of subscriptions, and more.  |
+| Category | The conversion rule to apply, where a conversion dimension is used to classify the type of conversion. |
 | Created | Date and time of the creation of the conversion. |
 | Last modified | Date and time of the last modification of the conversion. |
 
