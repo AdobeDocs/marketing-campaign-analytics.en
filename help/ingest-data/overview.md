@@ -3,11 +3,14 @@ title: Ingest data overview
 description: Learn how to ingest data into Marketing Campaign Analytics.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+autotag-review: '2026-05-01T09:11:34.506Z'
+TQID: 'https://experienceleague.adobe.com/bCjm1mvGkSSpD6oke4baWwZftqjyjv4u-1sBDtOYsJY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
     internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
@@ -26,9 +29,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-autotag-review: '2026-05-01T09:11:34.506Z'
 ---
 # Ingest data overview
+
+{{mm-mca-rebranding}}
 
 Marketing Campaign Analytics works with event level data, aggregate or summary marketing effort data from various walled gardens. And with aggregate or summary data from any other source, like offline advertising, internal factors or external factors. 
 

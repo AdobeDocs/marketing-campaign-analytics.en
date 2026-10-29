@@ -3,10 +3,11 @@ title: Harmonized fields
 description: Learn how to define fields to use as part of harmonizing your data in Marketing Campaign Analytics.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-TQID: https://experienceleague.adobe.com/NlB6aA4AO-0Tpbb9SibgUz0eVUgs8roO9Mju2M8tl7s
+autotag-review: '2026-05-01T09:13:17.577Z'
+TQID: 'https://experienceleague.adobe.com/ZmBwgBCVOPCVJ1pdniya3RvjWagTQuLSQoxluuDQLbc'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -20,9 +21,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-autotag-review: '2026-05-01T09:13:17.577Z'
 ---
 # Harmonized fields
+
+{{mm-mca-rebranding}}
 
 Harmonized fields allow you to define fields for conceptually the same data, originating from different sources, each with their own definition of that data. For example, a clicks metric can be defined and named differently depending on the source of data. A clicks harmonized field allows you to define a common nomenclature for a clicks metric based on those different sources of clicks data.
 

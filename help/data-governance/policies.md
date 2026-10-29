@@ -4,11 +4,13 @@ description: Learn how to access policies from Marketing Campaign Analytics.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
 autotag-review: '2026-05-01T09:17:02.907Z'
-TQID: 'https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4'
+TQID: 'https://experienceleague.adobe.com/uTMFYn3vc4-6JJefPhgFXGwaajrWQbgr9lW0y2s5B8U'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -32,6 +34,8 @@ topic_v2:
     internal-label: Privacy
 ---
 # Policies
+
+{{mm-mca-rebranding}}
 
 Once you go through the workflow to create a model and submit the model's configuration, [policy enforcement](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) checks to see if there are any violations. If a policy violation occurs, a popover appears indicating that one or more policies have been violated. This check is to ensure that your data operations and marketing actions within Experience Platform are compliant with data usage policies.
 

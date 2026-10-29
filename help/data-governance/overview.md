@@ -4,11 +4,17 @@ description: Learn how to use the services and tools from Experience Platform th
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
 autotag-review: '2026-05-01T09:16:50.195Z'
-TQID: 'https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4'
+TQID: 'https://experienceleague.adobe.com/4a-Y6-emQcZoHGcJwEttb4wcMyrxQvsbXRZ0SDpNhTs'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -36,6 +42,8 @@ topic_v2:
     internal-label: Privacy
 ---
 # Data governance overview
+
+{{mm-mca-rebranding}}
 
 The integration between Marketing Campaign Analytics and Experience Platform provides Marketing Campaign Analytics with the capabilities to leverage the intrinsic data governance features of Experience Platform. This section of the documentation details the specifics of the data governance features available in Marketing Campaign Analytics.
 

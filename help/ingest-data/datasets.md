@@ -3,13 +3,16 @@ title: Datasets
 description: Learn how to manage the datasets required to ingest data into Marketing Campaign Analytics.
 feature: Datasets
 exl-id: 788de24d-9021-48f8-87ab-09252b91276a
-TQID: https://experienceleague.adobe.com/gcb3YrQjRpQfKspkh6T-WZdM-2HosqDNb3otqym-cBk
+autotag-review: '2026-05-01T09:11:08.694Z'
+TQID: 'https://experienceleague.adobe.com/HOVyE9AQ0W-cA6DDAL5PtNlplpKLODWpj8ZJPHmIkrM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
     internal-label: Datasets
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ad7101f7-ae92-401b-a25a-d3060d42989d
     internal-label: Aggregate datasets
@@ -24,9 +27,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-autotag-review: '2026-05-01T09:11:08.694Z'
 ---
 # Datasets
+
+{{mm-mca-rebranding}}
 
 To manage datasets, containing the data you want to ingest in Experience Platform and use in Marketing Campaign Analytics:
 

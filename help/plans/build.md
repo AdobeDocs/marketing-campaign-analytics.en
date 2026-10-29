@@ -18,6 +18,8 @@ topic_v2:
 ---
 # Build plans
 
+{{mm-mca-rebranding}}
+
 In Marketing Campaign Analytics, you create a plan using the plan wizard. In the plan wizard, you can set up the details and budgets or target metrics of your plan and the underlying model to use for your plan. Once you have specified details, budget, target metrics, and model you can go ahead with an AI-recommended plan or edit the spend by channel. You have the option to define advanced configurations on average revenue per conversion and channel costs. 
 
 You need to define the goal you want to maximize your plan against. This goal can either be a budget that you can spend or a target you want to achieve. If the goal is a target, you additionally need to specify values for the target metric to use: conversion, revenue, CPA or ROI. 

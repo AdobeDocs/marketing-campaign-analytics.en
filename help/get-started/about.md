@@ -5,21 +5,21 @@ short-description: Get an overview of the functionality and capabilities of Mark
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 autotag-review: '2026-05-01T09:14:10.130Z'
-TQID: 'https://experienceleague.adobe.com/66NcfgGeMriaUXgpJ-h2MV2PBISSE5GMz3WWuF-i2u4'
+TQID: 'https://experienceleague.adobe.com/p5U62D65U-w6VtaGOsBuJlKWxcz2p-Qgku6zq-ezNQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-    internal-label: Marketing touch attribution
-  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-    internal-label: Plans
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

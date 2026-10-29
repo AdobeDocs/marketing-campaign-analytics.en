@@ -4,22 +4,26 @@ description: Learn how to measure campaigns and optimize planning holistically a
 short-description: Learn how to measure campaigns and optimize planning holistically across all channels with Marketing Campaign Analytics.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-TQID: https://experienceleague.adobe.com/XGSUhG3iwdjNowmk8AM87eCKv-JZF1DDAYzW0uktpes
 autotag-review: '2026-05-01T09:02:01.855Z'
+TQID: 'https://experienceleague.adobe.com/GoeY6zk9v3aRSfKJsRbvakvu2AV0jG4ggXqfGVZ-MK8'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-    internal-label: Harmonized data
-  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-    internal-label: Marketing touch attribution
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
     internal-label: Marketing mix modeling
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -54,7 +58,9 @@ topic_v2:
 ---
 # Adobe Marketing Campaign Analytics guide
 
-This technical documentation guide provides self help assistance for Adobe **Marketing Campaign Analytics** (formerly known as Adobe **[!UICONTROL Mix Modeler]**). Marketing Campaign Analytics is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Marketing Campaign Analytics is built on top of Adobe Experience Platform.
+{{mm-mca-rebranding}}
+
+This technical documentation guide provides self help assistance for Adobe **Marketing Campaign Analytics** (formerly Adobe **[!UICONTROL Mix Modeler]**). Marketing Campaign Analytics is an Adobe Experience Cloud application that measures campaigns and optimizes planning holistically across all channels: paid, earned, and owned. Marketing Campaign Analytics is built on top of Adobe Experience Platform.
 
 ## Start with the basics
 

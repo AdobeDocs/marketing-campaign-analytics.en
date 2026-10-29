@@ -4,10 +4,10 @@ description: Learn how to access audit logs from Marketing Campaign Analytics.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
 autotag-review: '2026-05-01T09:16:13.122Z'
-TQID: 'https://experienceleague.adobe.com/SVw4XFGpjHu5B5awcf9L-LH-IMEMrMmReACYo3-fSb0'
+TQID: 'https://experienceleague.adobe.com/ZH89ZDOEMDwbvU5QnPtpkDft0U121-JDrhgEBPDuV3Q'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
@@ -34,6 +34,8 @@ topic_v2:
     internal-label: Privacy
 ---
 # Audit logs
+
+{{mm-mca-rebranding}}
 
 To increase the transparency and visibility of activities performed in the system, user activity within the Marketing Campaign Analytics workflow is captured in Experience Platform audit logs to understand any user-driven changes to Marketing Campaign Analytics categories. These logs form an audit trail that can help with troubleshooting issues, and can help your business effectively comply with corporate data stewardship policies and regulatory requirements.  
 

@@ -35,6 +35,8 @@ topic_v2:
 ---
 # Build models
 
+{{mm-mca-rebranding}}
+
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
 In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Marketing Campaign Analytics], select **[!UICONTROL Open model canvas]**.
