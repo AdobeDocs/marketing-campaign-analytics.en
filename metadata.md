@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 solution: Marketing Campaign Analytics
 usetq: true
-landing-page-name: mix-modeler
+landing-page-name: marketing-campaign-analytics
 landing-page-breadcrumb-title: Marketing Campaign Analytics
 type: Documentation
 mini-toc-levels: 2
