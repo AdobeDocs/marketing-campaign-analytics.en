@@ -62,3 +62,5 @@ user-guide-description: Learn how to use Marketing Campaign Analytics.
 + {hide-from-toc} [Deep dive](/help/get-started/deep-dive.md)
 
 + [Glossary](/help/main-guide/glossary.md)
+
++ [MCP server](https://developer.adobe.com/analytics-mcp/docs/mca/)
