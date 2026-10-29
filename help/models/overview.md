@@ -65,6 +65,8 @@ When a model is first created, the creation immediately kicks off the training a
 
 ## Full funnel modeling
 
+{{release-limited-testing-section}}
+
 Full funnel modeling let you model the real stages of their funnel. For example, from newsletter sign-up up to a purchase. Full funnel modeling shows how marketing moves customers through that funnel. Full funnel modeling gives upper-funnel channels credit for the conversions these channels influence downstream, and reconciles the results so contributions add up correctly with no double-counting.
 
 You use full funnel modeling to model on one upper funnel KPI alongside one lower funnel KPI. 
