@@ -133,6 +133,8 @@ To change the channel:
 
 ## Funnel flow
 
+{{release-limited-testing-section}}
+
 If [full funnel modeling](./overview.md#full-funnel-modeling) is enabled for the model and you have selected Full funnel from the Funnel stage drop-down menu, a Funnel flow visualization is available.
 
 >[!BEGINTABS]
