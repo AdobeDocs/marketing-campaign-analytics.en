@@ -1,16 +1,22 @@
 ---
 title: Models Overview
-description: Learn how to build, train, score, and manage machine learning models in Mix Modeler to measure and predict marketing outcomes.
+description: Learn how to build, train, score, and manage machine learning models in Marketing Campaign Analytics to measure and predict marketing outcomes.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-TQID: https://experienceleague.adobe.com/2EmrUfSObFMDb0rNRG1OWqU8c2P9Dp1nf1y8-SpEY3k
 autotag-review: '2026-05-01T08:59:10.903Z'
+TQID: 'https://experienceleague.adobe.com/T37YTKQlT1mUIfGkJwQkLLGkP0WfTs6jUbZpskPUHgo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -24,6 +30,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
@@ -31,11 +39,13 @@ topic_v2:
 ---
 # Models overview
 
-The model functionality in Mix Modeler allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling.
+{{mm-mca-rebranding}}
+
+The model functionality in Marketing Campaign Analytics allows you to configure, train, and score models specific to your business objectives. The training and scoring supports AI-driven transfer learning between multitouch attribution and marketing mix modeling.
 
 The models are based on the harmonized data that you create as part of the application workflow.
 
-A model in Mix Modeler is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Mix Modeler allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
+A model in Marketing Campaign Analytics is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Marketing Campaign Analytics allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
 
 A model requires:
 
@@ -53,13 +63,27 @@ A model can optionally include:
 
 When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model may subsequently be retrained. Also, data may be added to the model which requires you to rescore the model manually. Retraining and rescoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives.
 
+## Full funnel modeling
+
+Full funnel modeling let you model the real stages of their funnel. For example, from newsletter sign-up up to a purchase. Full funnel modeling shows how marketing moves customers through that funnel. Full funnel modeling gives upper-funnel channels credit for the conversions these channels influence downstream, and reconciles the results so contributions add up correctly with no double-counting.
+
+You use full funnel modeling to model on one upper funnel KPI alongside one lower funnel KPI. 
+
+* Examples of upper funnel KPIs are newsletter signups nd other brand awareness metrics.
+* Examples of lower funnel metrics are typical conversion metrics, such as revenue and orders. 
+
+Upper funnel tactics often get lesser credit in a conversion focused MMM model. Full funnel modeling  helps you to understand:
+
+* Which media and marketing tactics contributed to the upper funnel goal.
+* Which media and marketing tactics drove indirect impact on the conversion goal. The upper funnel model weights are an input to the lower funnel model to give higher weightage for the media and marketing tactics where relevant. 
+
 ## Build models
 
-To build a model, use the Mix Modeler step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
+To build a model, use the Marketing Campaign Analytics step-by-step guided model configuration flow available when you select **[!UICONTROL Open model canvas]**. See [Build models](build.md) for more details.
 
 ## Manage models
 
-To view a table of your current models, in the Mix Modeler interface:
+To view a table of your current models, in the Marketing Campaign Analytics interface:
 
 1. Select ![FileDataS2](/help/assets/icons2/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
@@ -69,8 +93,8 @@ To view a table of your current models, in the Mix Modeler interface:
 
    | Column name | Details |
    |---|---|
-   | **[!UICONTROL Name]** | Name of the model |
-   | **[!UICONTROL Description]** | Description of the model |
+   | **[!UICONTROL Name]** | Name of the model. If a model is enabled for full funnel modeling, you see a [!BADGE Full funnel]{type=Informative} bage.|
+   | **[!UICONTROL Description]** | Description of the model. |
    | **[!UICONTROL Conversion event]** | The conversion you have selected for the model. |
    | **[!UICONTROL Run frequency]** | The running frequency of training the model. |
    | **[!UICONTROL Last run]** | The date and time of the last training of the model. |
@@ -127,7 +151,9 @@ To view more details of a model:
 
 1. Select ![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** from the left rail.
    
-1. Select ![Info](/help/assets/icons/Info.svg) for a model to show a pop-up with details.
+1. Select ![Info](/help/assets/icons/Info.svg) for a model to show a pop-up with details like **[!UICONTROL Description]**, **[!UICONTROL Run frequency]**, **[!UICONTROL Last run status]**, **[!UICONTROL Spend share]**, and more.
+
+   
 
 
 ### Duplicate
@@ -160,9 +186,9 @@ You can edit the name, description and the scheduling of training and scoring of
 
          * **[!UICONTROL Daily]**: Enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
          * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
-         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
+         * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every drop-down menu and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
 
-      1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+      1. Select a **[!UICONTROL Training frequency]** from the drop-down menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
    * To update the [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), in the **[!UICONTROL Granular Insights Reporting Fields]** section:
      1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.

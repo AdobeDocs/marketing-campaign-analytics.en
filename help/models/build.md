@@ -1,6 +1,6 @@
 ---
-title: Build Models In Mix Modeler
-description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
+title: Build Models In Marketing Campaign Analytics
+description: Learn how to build models in Marketing Campaign Analytics including how to set up, configure, and specify advanced options for the model. Such as conversion goals, touchpoints, adstock, and scheduling.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
@@ -35,15 +35,17 @@ topic_v2:
 ---
 # Build models
 
+{{mm-mca-rebranding}}
+
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
-In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Mix Modeler], select **[!UICONTROL Open model canvas]**.
+In the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Marketing Campaign Analytics], select **[!UICONTROL Open model canvas]**.
 
 ## Setup
 
 You define a name and a description in the **[!UICONTROL Setup]** step:
 
-1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI features of Mix Modeler`.
+1. Enter your model **[!UICONTROL Name]**, for example `Demo model`. Enter a **[!UICONTROL Description]**, for example `Demo model to explore AI features of Marketing Campaign Analytics`.
 
       ![Model name and description](/help/assets/model-name-description.png)
 
@@ -57,13 +59,18 @@ You define a name and a description in the **[!UICONTROL Setup]** step:
 >abstract="Marketing touchpoints are recipient, individual, and or cookie-level marketing events used to evaluate the impact of marketing investments on numeric or revenue-based conversions.<br/><br/>You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend."
 
 
-You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
+You configure your model in the **[!UICONTROL Configure]** step. Configuration involves the enablement of full funnel modeling, the definition of conversion goals, marketing touchpoints, the eligible data population, external and internal factors, and more.
+
+1. If you want to enable [full funnel modeling](./overview.md#full-funnel-modeling), in the **[!UICONTROL Full funnel model]** section:
+
+   1. Select **[!UICONTROL Enable full funnel modeling]**. 
+   1. Select an upper conversion from the **[!UICONTROL Upper funnel conversion]** drop-down menu.
 
 1. In the **[!UICONTROL Conversion goal]** section:
 
     ![Model - conversion step](/help/assets/model-conversion-step.png)
 
-    1. Select a conversion from the **[!UICONTROL Conversion]** dropdown menu. The available conversions are the conversions that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**.
+    1. Select a conversion from the **[!UICONTROL Conversion]** drop-down menu. The available conversions are the conversions that you defined as part of [Conversions](../harmonize-data/conversions.md) in [!UICONTROL Harmonized datasets]. For example, **[!UICONTROL Online Conversion]**.
 
     1. You can select ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** to create a conversion directly from within the model configuration.
 
@@ -74,7 +81,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    ![Model - marketing touchpoint step](/help/assets/model-marketing-touchpoint-step.png)
 
-   1. Select one or more marketing touchpoints from the **[!UICONTROL Touchpoint include]** dropdown menu.
+   1. Select one or more marketing touchpoints from the **[!UICONTROL Touchpoint include]** drop-down menu.
 
       * You can use ![CrossSize75](/help/assets/icons/CrossSize75.svg) to remove a touchpoint.
       * You can use **[!UICONTROL Clear all]** to remove all touchpoints.
@@ -111,21 +118,41 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
     * Select **And** and **Or** between containers to build more complex definitions for your eligible data population. 
       
-1. You can manage datasets containing internal or external factors in the **[!UICONTROL Factor dataset]** section.
-
-   ![Model - Factor dataset step](../assets/model-factors-dataset-step.png)
+1. You can manage datasets containing internal or external factors in the **[!UICONTROL Factor]** section.
 
    * To add a factor dataset, select **[!UICONTROL Add Factor]**. You can add a maximum of 30 factors to a model.
-     
+  
+        ![Model - Factor step](../assets/model-factors-dataset-step.png)
+      
      1. Select a **[!UICONTROL Factor dataset]** from the drop-down menu. The available factors are the factors for which you have defined a harmonized field in [dataset rules](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule).
+      
         Based on the selected dataset, the **[!UICONTROL Factor type]** is either **[!UICONTROL Internal]** or **[!UICONTROL External]**.
 
      1. Select the **[!UICONTROL Impact on conversion]** from the drop-down menu. Available options are: **[!UICONTROL Auto]**, **[!UICONTROL Positive]**, or **[!UICONTROL Negative]**. The default option is **[!UICONTROL Auto]**, which allows the model to determine the impact of the factor dataset.
 
    * To delete a factor dataset, select ![CrossSize200](/help/assets/icons/CrossSize400.svg).
 
+   * If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling), you need to define causal relationships and factor causul relationships for factors you add to the model.
+
+     ![Model - Factor step funnel](../assets/model-factors-dataset-step-funnel.png)
+ 
+     * To define causal relationships, in the **[!UICONTROL Causal relationship]**s table, select ![SelectBox](/help/assets/icons/SelectBox.svg) for each channel (**[!UICONTROL Source]**) whether the upper conversion KPI (selected as **[!UICONTROL Upper funnel conversion]** in **[!UICONTROL Full funnel modeling]** section) and lower converion KPI (selected as **[!UICONTROL Conversion]** in **[!UICONTROL Conversion goal]** section) is influenced by the channel.
+
+       You can select ![SelectBox](/help/assets/icons/SelectBox.svg) the column header for upper conversion KPI and lower conversion KPI to quickly define that all channels influence the KPI. 
+
+     * When you have defined factors, you define factor causal relationships. To define gactor causal relationships, in the **[!UICONTROL Factor causal relationships]** table, select ![SelectBox](/help/assets/icons/SelectBox.svg) for each factor (**[!UICONTROL Factor]**) whether the upper conversion KPI (selected as **[!UICONTROL Upper funnel conversion]** in **[!UICONTROL Full funnel modeling]** section) and lower converion KPI (selected as **[!UICONTROL Conversion]** in **[!UICONTROL Conversion goal]** section) is influenced by the factor.
+
+       You can select ![SelectBox](/help/assets/icons/SelectBox.svg) the column header for upper conversion KPI and lower conversion KPI to quickly define that all factors influence the KPI.
+      
 
 1. To define the lookback window for the model, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** in the **[!UICONTROL Define lookback window]** section.
+
+   If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling):
+   
+   * To define the lookback window for lower funnel, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]** for **[!UICONTROL Lower funnel]** in the **[!UICONTROL Define lookback window]** section.
+
+   * To define the lookback window for upper funnel, enter a value between `1` and `52` in **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the upper funnel conversion]** for **[!UICONTROL Upper funnel]** in the **[!UICONTROL Define lookback window]** section.
+    
 
 1. To define the training window for a model, at **[!UICONTROL Define training window]**, select where you would like to start scoring conversions.
 
@@ -133,7 +160,7 @@ You configure your model in the **[!UICONTROL Configure]** step. Configuration i
 
    You can select between: 
 
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** and 
+   * **[!UICONTROL Have Marketing Campaign Analytics select a helpful training window]** and 
 
    * **[!UICONTROL Manually input a training window]**. When selected, define the number of years in **[!UICONTROL Include events the following years prior to a conversion]**.
 
@@ -155,7 +182,14 @@ You can specify advanced settings in the **[!UICONTROL Advanced]** step. In this
 
 In the **[!UICONTROL Spend share]** section:
 
-* To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. This setting is recommended, especially in the following scenarios:
+* To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share]**. 
+
+  If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling):
+
+  * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share for the lower funnel]**.
+  * To use historical marketing investment ratios to inform the model when marketing data is sparse, activate **[!UICONTROL Allow spend share for the upper funnel]**.
+  
+* This setting is recommended, especially in the following scenarios:
   * A channel doesn't have enough observations (for example, low frequency of spend, impressions or clicks).
   * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
   
@@ -163,6 +197,8 @@ In the **[!UICONTROL Spend share]** section:
   >
   >For one-off investments (for example a Super Bowl ad), incorporate that data as a factor instead of relying on spend share.
   >
+
+  
 
 ### MTA
 
@@ -178,6 +214,10 @@ In the **[!UICONTROL Prior knowledge]** section:
 ![Model - Prior knowledge](/help/assets/model-prior-knowledge-step.png)
 
 1. Select the **[!UICONTROL Rule type]**, which is by default **[!UICONTROL Absolute values]**.
+
+1. If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling):
+
+   * Select either **[!UICONTROL Lower funnel]** or **[!UICONTROL Upper funnel]** from **[!UICONTROL Select metric]** as the funnel metric to use for prior knowledge.
 
 1. Specify contribution percentages for any of the channels listed under **[!UICONTROL Name]**, using the **[!UICONTROL Contribution proportion]** column. 
 
@@ -197,6 +237,8 @@ The channel adstock configuration helps you to capture channel-specific nuances.
 ![Channel adstock](/help/assets/channel-ad-stock.png)
 
 To configure channel adstock:
+
+* If your model is enabled for [full funnel modeling](./overview.md#full-funnel-modeling), select **[!UICONTROL Lower funnel]** or **[!UICONTROL Upper funnel]** from **[!UICONTROL Select metric]** as the funnel metric to use for channel adstock.
 
 * For each channel (**[!UICONTROL Name]**), define a **[!UICONTROL Lag (weeks)]**, a **[!UICONTROL Min Lookback (weeks)]**,  and **[!UICONTROL Max Lookback (weeks)]** value. For each value:
 
@@ -227,9 +269,9 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
 
      * **[!UICONTROL Daily]**: Enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
      * **[!UICONTROL Weekly]**: Select a day of the week and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg)  to define the time.  
-     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every dropdown menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg)  to define the time.
+     * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every drop-down menu and enter a valid time (for example `05:22 pm`) or use ![Clock](/help/assets/icons/Clock.svg)  to define the time.
 
-  1. Select a **[!UICONTROL Training frequency]** from the dropdown menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+  1. Select a **[!UICONTROL Training frequency]** from the drop-down menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
 
 
 ### Granular insights reporting fields

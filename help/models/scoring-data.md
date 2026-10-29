@@ -1,16 +1,20 @@
 ---
 title: Use scoring data
-description: Learn how a model's scoring data in Mix Modeler is persisted.
+description: Learn how a model's scoring data in Marketing Campaign Analytics is persisted.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
 autotag-review: '2026-05-01T08:58:54.964Z'
+TQID: 'https://experienceleague.adobe.com/WV57Ccr2rGydmuN8fKgysOXoFOufY-LlzLxdMNbBb-w'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: cb40363e-1205-4921-971c-9ee6bdb18329
     internal-label: Scoring data
@@ -24,6 +28,8 @@ topic_v2:
     internal-label: Metadata
 ---
 # Use scoring data
+
+{{mm-mca-rebranding}}
 
 As part of scoring a model, scoring data is persisted within a dataset in Experience Platform. When you have enabled muti-touch attribution during model creation, additional event score data are persisted within a dataset in Experience Platform.
 

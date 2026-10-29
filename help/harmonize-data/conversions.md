@@ -1,12 +1,13 @@
 ---
 title: Conversions
-description: Learn how to create conversions to use as part of harmonizing your data in Mix Modeler.
+description: Learn how to create conversions to use as part of harmonizing your data in Marketing Campaign Analytics.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
+autotag-review: '2026-05-01T09:15:50.061Z'
+TQID: 'https://experienceleague.adobe.com/5m8Z9cc9d42019sNXkstXDn6cOo-2yzzQWCw0VG1YrY'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
@@ -18,10 +19,12 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-autotag-review: '2026-05-01T09:15:50.061Z'
 ---
 # Conversions {#conversions}
 
+{{mm-mca-rebranding}}
+
+{{mm-mca-rebranding}}
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
@@ -35,7 +38,7 @@ You define marketing conversions for attribution analysis.
 
 ## Manage conversions
 
-To see a table of the available conversions, in the Mix Modeler interface:
+To see a table of the available conversions, in the Marketing Campaign Analytics interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -47,15 +50,15 @@ The table columns specify details about the conversion:
 | --- | ---|
 | Name | The name of the conversion.  |
 | Revenue | The harmonized data metric to use to calculate revenue from a conversion.  |
-| Conversion metric | The harmonized data metric to use as the conversion metric for analysis. |
-| Category | The conversion category of the conversion. |
+| Conversion metric | The harmonized data metric to use as the conversion metric for analysis. This denotes primary numeric business outcome, such as: orders, revenue, number of subscriptions, and more.  |
+| Category | The conversion rule to apply, where a conversion dimension is used to classify the type of conversion. |
 | Created | Date and time of the creation of the conversion. |
 | Last modified | Date and time of the last modification of the conversion. |
 
 
 ## Add a conversion
 
-To add a conversion, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interface in Mix Modeler:
+To add a conversion, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** interface in Marketing Campaign Analytics:
 
 1. Select ![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
@@ -100,7 +103,7 @@ To view a report of a conversion:
 
    ![Conversion view report](../assets/conversion-view-report.png)
 
-   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** dropdown menu.
+   * To change the granularity to report on, select a value from the **[!UICONTROL Weekly]** drop-down menu.
    * To change the period to report on, enter a start and end date or use ![Calendar](/help/assets/icons/Calendar.svg) to define a period in the calendar popup.
 
 1. Select **[!UICONTROL Close]** to close the dialog.

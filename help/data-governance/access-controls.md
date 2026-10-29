@@ -1,13 +1,18 @@
 ---
 title: Access controls
-description: Learn how to configure access controls in Mix Modeler.
+description: Learn how to configure access controls in Marketing Campaign Analytics.
 feature: Administration
 exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
-TQID: https://experienceleague.adobe.com/EoiF5ui2Bqq0Oxuv-s5E5pQclj9gnjoKgZ1bOzRK-vY
+autotag-review: '2026-05-01T09:20:37.287Z'
+TQID: 'https://experienceleague.adobe.com/ThO2ylnzexAPA1qczBJ5EEfHErHphVQ3XjXug71w6A0'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
     internal-label: Administration
 subfeature_v2:
@@ -25,17 +30,18 @@ topic_v2:
     internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-autotag-review: '2026-05-01T09:20:37.287Z'
 ---
 # Access controls
 
-Access control for Mix Modeler is provided through Experience Platform in the [Adobe Admin Console](https://adminconsole.adobe.com/) and through [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions) in Experience Platform. This functionality leverages product profiles in the Admin Console, which link users with permissions and sandboxes.
+{{mm-mca-rebranding}}
+
+Access control for Marketing Campaign Analytics is provided through Experience Platform in the [Adobe Admin Console](https://adminconsole.adobe.com/) and through [Permissions](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions) in Experience Platform. This functionality leverages product profiles in the Admin Console, which link users with permissions and sandboxes.
 
 For more information on access control, see [Access control overview](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home).
 
 ## Role-based access control
 
-See [Administration](../main-guide/administration.md) on how to configure role-based access permissions for Mix Modeler users and user groups in Experience Platform.
+See [Administration](../main-guide/administration.md) on how to configure role-based access permissions for Marketing Campaign Analytics users and user groups in Experience Platform.
 
 ## Attribute-based access control
 

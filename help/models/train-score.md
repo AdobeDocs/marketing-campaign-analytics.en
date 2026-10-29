@@ -3,12 +3,18 @@ title: Train and score models
 description: Learn how to train and score models.
 feature: Models
 exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
-TQID: https://experienceleague.adobe.com/yHi6d-zZeT5fpedJeqNAj-Q01NlEK-y3MybA5p54DhE
 autotag-review: '2026-05-01T09:03:34.273Z'
+TQID: 'https://experienceleague.adobe.com/mvt9xE7FRLCEa9mD52LgW6bIJfHJMUd1cC4ipuebAhQ'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
 subfeature_v2:
@@ -21,6 +27,8 @@ role_v2:
     internal-label: Admin
 ---
 # Train and score models
+
+{{mm-mca-rebranding}}
 
 After you have [built](/help/models/build.md) a model, the model is automatically trained and scored. You can manually retrain or rescore a model.
 

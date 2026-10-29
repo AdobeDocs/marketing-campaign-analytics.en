@@ -1,16 +1,27 @@
 ---
-title: View the current Mix Modeler release notes
-description: Latest Mix Modeler release notes
+title: View the current Marketing Campaign Analytics release notes
+description: Latest Marketing Campaign Analytics release notes
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
+autotag-review: '2026-05-01T09:06:55.437Z'
+TQID: 'https://experienceleague.adobe.com/fZpl0bWBtDzOWllXsyGPErO637PaIdJ-2E-l-89JpDk'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
     internal-label: Release notes
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -23,13 +34,21 @@ topic_v2:
     internal-label: Experimentation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-05-01T09:06:55.437Z'
 ---
-# Current Mix Modeler release notes
+# Current Marketing Campaign Analytics release notes
 
-**Last update**: August 19, 2026.
+{{mm-mca-rebranding}}
 
-These release notes cover the latest release of Mix Modeler. Mix Modeler releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
+**Last update**: October 29, 2026.
+
+These release notes cover the latest release of Marketing Campaign Analytics. Marketing Campaign Analytics releases operate on a continuous delivery model, which allows for an approximate monthly release cadence. Accordingly, these release notes get updated, so check them regularly.
+
+## October 2026
+
+| Feature | Description | [Rollout start](#release-strategy) | [General Availability](#release-strategy) |
+|---|---|---|---|
+| **Full funnel modeling** | You can enable [full funnel modeling](/help/models/overview.md#full-funnel-modeling) when you build a a model to show how marketing moves customers through the funnel. A [funnel flow visualization](/help/models/insights.md#funnel-flow) is available in Model insights to provide insights into the full funnel. | October 29, 2026 | October 29, 2026 |
+
 
 ## August 2026
 
@@ -65,7 +84,7 @@ These release notes cover the latest release of Mix Modeler. Mix Modeler release
 
 ## Release strategy
 
-[!UICONTROL Mix Modeler] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
+[!UICONTROL Marketing Campaign Analytics] uses feature flags (also known as "toggles") to control the visibility of new features, allowing for controlled scale testing prior to full release. This release strategy includes the following phases:
 
 * **Limited Testing**: A phased release begins with testing by internal Adobe users. It is then made available to a small group of customer accounts to ensure that the feature meets customer needs and expectations. 
 

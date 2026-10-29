@@ -1,16 +1,20 @@
 ---
 title: Model Insights
-description: Learn how to get details about your model, like historical overview, model insights, and model quality in Mix Modeler.
+description: Learn how to get details about your model, like historical overview, model insights, and model quality in Marketing Campaign Analytics.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
+TQID: 'https://experienceleague.adobe.com/zoUwqJXQ0z2ttUwvF1cn5ukSvn8-Cxhpv5lXlWENkQo'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
     internal-label: Models
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -20,12 +24,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
 ---
 # Model insights
+
+{{mm-mca-rebranding}}
 
 Each visualization in model insights is designed to help you to:
 
@@ -35,12 +43,11 @@ Each visualization in model insights is designed to help you to:
 
 These insights then help you to support resource prioritization and allocation.
 
-To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Mix Modeler]:
+To view model insights, in the ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** interface in [!DNL Marketing Campaign Analytics]:
 
 1. From the **[!UICONTROL Models]** table, select the name of a model that has a **[!UICONTROL Last run status]** of ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**.
    
 1. From the context menu, select **[!UICONTROL Model Insights]**.
-
 
 
 The following tabs are available:
@@ -51,6 +58,8 @@ The following tabs are available:
 * [Attribution](#attribution) (only for MTA enabled models) 
 * [Diagnostics](#diagnostics) 
 * [Historical overview](#historical-overview).
+
+If [full funnel modeling](./overview.md#full-funnel-modeling) is enabled for the model, select the funnel stage (**[!UICONTROL Upper funnel]**, **[!UICONTROL Lower funnel]**, **[!UICONTROL Full funnel]**) from the **[!UICONTROL Funnel stage]** drop-down menu for which you want to see model insights.
 
 You can change the date period on which the visualizations on each of the tabs are based on. Enter a date period or select ![Calendar](/help/assets/icons/Calendar.svg) to select a date period.
 
@@ -120,8 +129,25 @@ The curve, current spend point, marginal break-even point, and corresponding val
 
 To change the channel:
 
-* Select a channel from the **[!UICONTROL Channel]** dropdown menu to update the visualization for a specific channel.
+* Select a channel from the **[!UICONTROL Channel]** drop-down menu to update the visualization for a specific channel.
 
+## Funnel flow
+
+If [full funnel modeling](./overview.md#full-funnel-modeling) is enabled for the model and you have selected Full funnel from the Funnel stage drop-down menu, a Funnel flow visualization is available.
+
+>[!BEGINTABS]
+
+>[!TAB Funnel flow] 
+
+![Funnel flow](/help/assets/model-funnel-flow.png)
+
+>[!TAB Hover over funnel flow]
+
+![Plan channel all synergies](/help/assets/model-funnel-flow-hover.png)
+
+>[!ENDTABS]
+
+Hover over any flow to see a popup with more details for the specific funnel flow.
 
 ### Touchpoint breakdown
 
@@ -141,7 +167,7 @@ The following columns are available:
 | **[!UICONTROL Conversions]** | The conversions for the date range. |
 | **[!UICONTROL Spend]** | The spend for the data range. |
 
-To select a specific channel or all channels, select from the **[!UICONTROL View]** dropdown menu.
+To select a specific channel or all channels, select from the **[!UICONTROL View]** drop-down menu.
 
 To download the contents of the Touchpoint breakdown table, select ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
@@ -159,16 +185,21 @@ The heatmap matrix provides a visual representation of the synergy values betwee
 
 This next-dollar framework offers a realistic measure of relative synergy strength, as the framework accounts for actual spend conditions in the training data and as such enables more informed optimization decisions.
 
+If [full funnel modeling](./overview.md#full-funnel-modeling) is enabled for the model, you see a visualization for Upper funnel channel synergies and for Lower funnel channel synergies.
 
 >[!BEGINTABS]
 
->[!TAB Show fewer synergies] 
+>[!TAB Show less channel synergies] 
 
-![Plan channel synergies](/help/assets/model-channel-synergies-less.png)
+![Plan channel less synergies](/help/assets/model-channel-synergies-less.png)
 
->[!TAB Show all synergies]
+>[!TAB Show all channel synergies]
 
-![Plan channel synergies](/help/assets/model-channel-synergies-all.png)
+![Plan channel all synergies](/help/assets/model-channel-synergies-all.png)
+
+>[!TAB Funnel synergies]
+
+![Plan channel funnel synergies](/help/assets/model-channel-synergies-funnel.png)
 
 >[!ENDTABS]
 
@@ -206,6 +237,7 @@ Channels with slower decay curves (longer tails) indicate sustained impact over 
 
 >[!ENDTABS]
 
+* If [full funnel modeling](./overview.md#full-funnel-modeling) is enabled for the model, select Upper funnel or Lower funnel from the Funnel stage drop-down menu.
 * To display adstock visualizations for **[!UICONTROL All channels]** or an adstock visualization for an individual  channel (for example, **[!UICONTROL Paid Social Facebook]**), select from the **[!UICONTROL Channel]** drop-down menu.
 
 
@@ -223,7 +255,7 @@ The Factors [!BADGE beta] tab shows external factor related insights.
 
 This visualization helps you to understand the incremental effect that various internal and external factors have on the baseline of conversions. For example, economic conditions or promotional activities.
 
-Use the **[!UICONTROL Factors]** dropdown menu to select which factors you want to display.
+Use the **[!UICONTROL Factors]** drop-down menu to select which factors you want to display.
 
 <!-- need to update the image when we do have a proper example -->
 
@@ -254,7 +286,7 @@ Using the [!UICONTROL Attribution] tab, you can understand the effectiveness of 
 
 The following attribution models are supported:
 
-* Based on the selected model in [!DNL Mix Modeler]:
+* Based on the selected model in [!DNL Marketing Campaign Analytics]:
   * Algorithmic - Influenced
   * Algorithmic - Incremental
 * Rule based:
@@ -264,13 +296,13 @@ The following attribution models are supported:
   * Linear
   * Ushape
 
-See [Multi-touch attribution](../get-started/about.md#multi-touch-attribution) for an introduction on the multi-touch attribution capability in [!DNL Mix Modeler].
+See [Multi-touch attribution](../get-started/about.md#multi-touch-attribution) for an introduction on the multi-touch attribution capability in [!DNL Marketing Campaign Analytics].
 
-Select one or more attribution models from the **[!UICONTROL Attribution Model]** dropdown menu. The selected attribution models apply to all visualizations in the Attribution tab.
+Select one or more attribution models from the **[!UICONTROL Attribution Model]** drop-down menu. The selected attribution models apply to all visualizations in the Attribution tab.
 
 ![Attribution](/help/assets/model-insights-attribution.png)
 
-The Mix Modeler multi-touch attribution granular event scores align to the overall [!DNL Mix Modeler] scores and ROIs. These scores are also made available as datasets in Experience Platform.
+The Marketing Campaign Analytics multi-touch attribution granular event scores align to the overall [!DNL Marketing Campaign Analytics] scores and ROIs. These scores are also made available as datasets in Experience Platform.
 
 The Attribution tab consists of the following visualizations:
 
@@ -416,8 +448,8 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
   * **[!UICONTROL Training R<sup>2</sup>]**: Indicates the proportion of variance in the actual values explained by the model's predictions, ranging from 0 to 1.
   * **[!UICONTROL Training sMAPE]** (symmetric Mean Absolute Percentage Error): Measures average percentage error on training data. Lower values indicate better accuracy.
   * **[!UICONTROL Training RMSE]** (Root Mean Squared Error): Measures average percentage error on training data. Penalizes larger errors more than MAPE. Lower RMSE suggests better predictive accuracy but is sensitive to outliers.
-  * **[!UICONTROL Out-of-sample sMAPE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps to assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set.
-  * **[!UICONTROL Out-of-sample RMSE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, [!DNL Mix Modeler] evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
+  * **[!UICONTROL Out-of-sample sMAPE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps to assess generalization. Currently, Marketing Campaign Analytics evaluates percentage error using the last quarter of training data as a holdout set.
+  * **[!UICONTROL Out-of-sample RMSE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, [!DNL Marketing Campaign Analytics] evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
 
 
 * **[!UICONTROL Touchpoint effectiveness]** table, representing the outcome of the Attribution AI algorithmic model. 
@@ -437,7 +469,7 @@ The **[!UICONTROL Diagnostics]** tab shows visualizations for:
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the [!DNL Mix Modeler] release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the [!DNL Marketing Campaign Analytics] release process, see [Marketing Campaign Analytics feature releases](/help/releases/latest.md).
 >
 
 If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.

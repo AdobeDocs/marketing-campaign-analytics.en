@@ -4,12 +4,21 @@
 
 >[!AVAILABILITY]
 >
->The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>The functionality described in this article is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Marketing Campaign Analytics release process, see [Marketing Campaign Analytics feature releases](/help/releases/latest.md).
 >
 
 ## Release phase Limited Testing section {#release-limited-testing-section}
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note will be removed when the functionality is generally available. For information about the Marketing Campaign Analytics release process, see [Marketing Campaign Analytics feature releases](/help/releases/latest.md).
 >
+
+
+## Mix Modeler to Marketing Campaign Analytics rebranding {#mm-mca-rebranding}
+
+>[!BEGINSHADEBOX]
+
+**Adobe Marketing Campaign Analytics** is the evolution and rebranding of **Adobe Mix Modeler**. Some of the Experience League content might still refer to Mix Modeler instead of Marketing Campaign Analytics.
+
+>[!ENDSHADEBOX]

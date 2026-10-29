@@ -1,13 +1,13 @@
 ---
 title: Performance to plan
-description: Learn how to use the Performance to plan overview in Mix Modeler.
+description: Learn how to use the Performance to plan overview in Marketing Campaign Analytics.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 autotag-review: '2026-05-01T09:20:18.412Z'
-TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
+TQID: 'https://experienceleague.adobe.com/wz2IEd-oBB8N-BSAdXMkcz9xS0xn7l4FlRJoBaQcCAw'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
@@ -29,20 +29,29 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 ---
 # Performance to plan
 
+{{mm-mca-rebranding}}
+
 >[!NOTE]
 >
->The **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an beta feature and its functionality is subject to change. The feature is available to a limited number of customers.
+>The **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} tab in Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** is an beta feature and its functionality is subject to change. The feature is available to a limited number of customers.
 
-The **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} tab in Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. You can track actual performance versus planned performance through status cards and visualizations.
+The **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} tab in Marketing Campaign Analytics ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** provides a tracking dashboard to monitor how well your marketing performs against the plan. You can track actual performance versus planned performance through status cards and visualizations.
 
 The dashboard helps you to identify gaps, spot risks or opportunities, and make timely adjustments to your plans and budgets.
 
 To select what data is displayed for the KPI status cards and visualizations:
 
-* Select a plan from the **[!UICONTROL Plan name]** dropdown menu, using the **[!UICONTROL _Select an option..._]**.
+* Select a plan from the **[!UICONTROL Plan name]** drop-down menu, using the **[!UICONTROL _Select an option..._]**.
 
 * Specify a date period. To change the date period, enter a start date and end date manually or select a date period, using ![Calendar](/help/assets/icons/Calendar.svg).
 
@@ -89,7 +98,7 @@ A line visualization that displays the KPI for the date period.
 To select another KPI: 
 
 1. Select ![Edit](/help/assets/icons/Edit.svg).
-1. From the **[!UICONTROL KPI status card]** dialog, select a KPI from the **[!UICONTROL KPI]** dropdown menu. Available options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], and [!UICONTROL Spend].
+1. From the **[!UICONTROL KPI status card]** dialog, select a KPI from the **[!UICONTROL KPI]** drop-down menu. Available options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], and [!UICONTROL Spend].
 
 
 ## Visualizations
@@ -139,11 +148,11 @@ To edit a visualization:
 1. Select ![Edit](/help/assets/icons/Edit.svg) to open the **[!UICONTROL Edit data]** dialog. 
 1. Depending on the visualization, you can change:
 
-   * One or two metrics: Select a metric from the **[!UICONTROL Select metric]** dropdown menu.
+   * One or two metrics: Select a metric from the **[!UICONTROL Select metric]** drop-down menu.
 
      * For ROI based plans, the options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend], and [!UICONTROL Volume].
      * For CPA based plans, the options are: [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend], and [!UICONTROL Volume].
-   * **[!UICONTROL Granularity]**: Select either **[!UICONTROL date ranges]** or **[!UICONTROL week]** from the **[!UICONTROL Granularity]** dropdown menu.
+   * **[!UICONTROL Granularity]**: Select either **[!UICONTROL date ranges]** or **[!UICONTROL week]** from the **[!UICONTROL Granularity]** drop-down menu.
 
    You see in **[!UICONTROL Preview]** how the changes are different from the **[!UICONTROL Current]** visualization.
 

@@ -1,15 +1,24 @@
 ---
 title: Dataset rules
-description: Learn how to define dataset rules to use as part of harmonizing your data in Mix Modeler.
+description: Learn how to define dataset rules to use as part of harmonizing your data in Marketing Campaign Analytics.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-TQID: https://experienceleague.adobe.com/AHQ73zgE97hHUbZ-lW9-l0c-MKHjA50Qcj9w02MjyGM
+autotag-review: '2026-05-01T09:12:48.985Z'
+TQID: 'https://experienceleague.adobe.com/y9TAqZY49fiIesDpEQ-NO58bR2SU3hYvqk5lAlgrslA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
     internal-label: Harmonized data
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+    internal-label: Schemas
 subfeature_v2:
   - id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2ad
     internal-label: Dataset rules
@@ -27,11 +36,12 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-autotag-review: '2026-05-01T09:12:48.985Z'
 ---
 # Dataset rules
 
-Dataset rules assist you in mapping your harmonized fields with fields from the data you ingested in Mix Modeler.
+{{mm-mca-rebranding}}
+
+Dataset rules assist you in mapping your harmonized fields with fields from the data you ingested in Marketing Campaign Analytics.
 
 * For aggregate data that you ingested in Adobe Experience Platform, you map one or more of the available dataset fields to the appropriate harmonized fields. 
 * For event data, you can individually map one or more harmonized fields to fields from the dataset, directly or using conditions.
@@ -40,7 +50,7 @@ Dataset rules assist you in mapping your harmonized fields with fields from the 
 
 ## Manage dataset rules
 
-To see a table of the available dataset rules, in the Mix Modeler interface:
+To see a table of the available dataset rules, in the Marketing Campaign Analytics interface:
 
 1. Select ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** from the left rail.
    
@@ -72,7 +82,7 @@ The table columns specify details about the dataset rules:
 
 ### Create a dataset rule
 
-To create a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler, select **[!UICONTROL Create a dataset rule]** in the **[!UICONTROL Dataset rules configuration]** wizard.
+To create a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Marketing Campaign Analytics, select **[!UICONTROL Create a dataset rule]** in the **[!UICONTROL Dataset rules configuration]** wizard.
 
 In the **[!UICONTROL Create]** screen, 
  
@@ -86,7 +96,7 @@ In the **[!UICONTROL Create]** screen,
 
    Reporting data from publishers is very important to marketing analysts since working with publishers often implies significant spend, and changes in the reporting data may result in very different insights and investment plans. Furthermore, marketing analysts need accurate data to derive the right insights and present convincing proposals to gain stakeholder confidence. However, these publishers, such as Google and Facebook, often restate or delete reporting data as they reconcile their data. The time frame for most of the changes is within 7 days of the reported media performance. Additional changes in the data are possible within 30 days. In general, after 30 days, books are considered closed and data complete. 
 
-   Mix Modeler supports data restatement. To ensure that the data that is used for reporting, modeling, and planning is accurate. And that the data is able to support the brand and marketing analyst's expectations and needs.
+   Marketing Campaign Analytics supports data restatement. To ensure that the data that is used for reporting, modeling, and planning is accurate. And that the data is able to support the brand and marketing analyst's expectations and needs.
    
    You can send restated rows of summary data as incremental rows in an Experience Platform dataset and the harmonization service updates the harmonized dataset with that restated data. Similarly, you can also remove rows of summary data that needs to be reflected in the harmonization service. 
 
@@ -138,7 +148,7 @@ When finished, select **[!UICONTROL Save as draft]** to save a draft version of 
 
 #### Summary datasets
 
-When you map a standard harmonized field from a summary dataset, Mix Modeler tries to deduce the corresponding Experience Platform dataset field. When successful:
+When you map a standard harmonized field from a summary dataset, Marketing Campaign Analytics tries to deduce the corresponding Experience Platform dataset field. When successful:
 
 * If the field is of type dimension, **[!UICONTROL Map into]** is selected as **[!UICONTROL Mapping type]**.
 * If the field is of type metric, **[!UICONTROL Sum]** is selected as **[!UICONTROL Mapping type]**.
@@ -215,7 +225,7 @@ For the **[!UICONTROL Factor value]** harmonized field use one of the aggregatio
 
 ### Edit a dataset rule
 
-To edit a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
+To edit a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Marketing Campaign Analytics:
 
 1. Select ![More](/help/assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to edit.
 1. From the context menu, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** to start editing the dataset rule. Refer to [Create a dataset rule](#create-a-dataset-rule) for more details.
@@ -223,7 +233,7 @@ To edit a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) *
 
 ### Delete a dataset rule
 
-To delete a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Mix Modeler:
+To delete a dataset rule, in the ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** interface in Marketing Campaign Analytics:
 
 1. Select ![More](/help/assets/icons/More.svg) in the **[!UICONTROL Dataset]** column for the dataset rule that you want to delete.
 1. From the context menu, select ![Delete](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]** to delete the dataset rule. You are prompted for confirmation. Select **[!UICONTROL Delete]** to delete the selected dataset rule permanently.

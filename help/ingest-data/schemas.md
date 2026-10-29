@@ -1,13 +1,18 @@
 ---
 title: Schemas
-description: Learn how to manage the schemas required to ingest data into Mix Modeler.
+description: Learn how to manage the schemas required to ingest data into Marketing Campaign Analytics.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+autotag-review: '2026-05-01T08:56:54.552Z'
+TQID: 'https://experienceleague.adobe.com/GS91VDl1bmpHRPKVZTg6j-94nikFXXFHWLhoMoDWaw4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
     internal-label: Schemas
 role_v2:
@@ -15,13 +20,14 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-autotag-review: '2026-05-01T08:56:54.552Z'
 ---
 # Schemas
 
-To manage schemas, supporting the data you want to ingest in Experience Platform and use in Mix Modeler:
+{{mm-mca-rebranding}}
 
-1. Go to the Mix Modeler interface.
+To manage schemas, supporting the data you want to ingest in Experience Platform and use in Marketing Campaign Analytics:
+
+1. Go to the Marketing Campaign Analytics interface.
 
 1. Select ![Schemas](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, underneath **[!UICONTROL SETUP]**. 
 
@@ -29,7 +35,7 @@ See the [Schemas UI overview](https://experienceleague.adobe.com/docs/experience
 
 ## Aggregate or summary data
 
-It is highly recommended to use the XDM Summary Metrics class as the base of the schema underlying any aggregate or summary data you want to ingest in Experience Platform and use in Mix Modeler.
+It is highly recommended to use the XDM Summary Metrics class as the base of the schema underlying any aggregate or summary data you want to ingest in Experience Platform and use in Marketing Campaign Analytics.
 
 Use the XDM Summary Metrics class for:
 
@@ -95,7 +101,7 @@ A summary, internal factor, or external factor dataset can be based upon:
 
 ## Supported data types
 
-Currently, Mix Modeler does support a subset of Experience Platform data types. The following basic data types (fields), mentioned in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), are supported:
+Currently, Marketing Campaign Analytics does support a subset of Experience Platform data types. The following basic data types (fields), mentioned in [Basics of schema composition](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), are supported:
 
 - String
 - Integer

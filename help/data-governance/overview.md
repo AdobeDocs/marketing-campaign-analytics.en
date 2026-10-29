@@ -4,11 +4,17 @@ description: Learn how to use the services and tools from Experience Platform th
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
 autotag-review: '2026-05-01T09:16:50.195Z'
-TQID: 'https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4'
+TQID: 'https://experienceleague.adobe.com/4a-Y6-emQcZoHGcJwEttb4wcMyrxQvsbXRZ0SDpNhTs'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
     internal-label: Data governance
   - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
@@ -37,11 +43,13 @@ topic_v2:
 ---
 # Data governance overview
 
-The integration between Mix Modeler and Experience Platform provides Mix Modeler with the capabilities to leverage the intrinsic data governance features of Experience Platform. This section of the documentation details the specifics of the data governance features available in Mix Modeler.
+{{mm-mca-rebranding}}
+
+The integration between Marketing Campaign Analytics and Experience Platform provides Marketing Campaign Analytics with the capabilities to leverage the intrinsic data governance features of Experience Platform. This section of the documentation details the specifics of the data governance features available in Marketing Campaign Analytics.
 
 Experience Platform Data Governance gives you the ability to control and comprehend your data throughout the journey that data takes through Experience Platform. This journey involves maintaining data quality, data lineage, data cataloging, and much more.
 
-Data usage labels and policies that are created on datasets consumed by Experience Platform surface in the Mix Modeler where appropriate. For example, these labels stop or warn users when deleting datasets that are part of a dataset rule in the harmonized data. Or hide schema fields that are restricted for users when creating a dataset rule.
+Data usage labels and policies that are created on datasets consumed by Experience Platform surface in the Marketing Campaign Analytics where appropriate. For example, these labels stop or warn users when deleting datasets that are part of a dataset rule in the harmonized data. Or hide schema fields that are restricted for users when creating a dataset rule.
 
 The data governance integration allows you to manage compliance more efficiently. Data stewards in your organization can set policies to restrict usage. As a result, you can use data that complies with policies defined by data stewards. Read the documentation on [Labels and Policies](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance) to learn more.
 
@@ -50,8 +58,8 @@ The following data governance features are available:
 | Feature | Details |
 |---|---|
 | Access controls | Role-based access control and attribute-based (field-level) access control are supported. See [Access controls](access-controls.md) for more information. |
-| Audit logs | When users create, update or delete specific Mix Modeler categories, Experience Platform Audit functionality records the activity in the audit logs. See [Audit logs](audit-logs.md) for more information. |
+| Audit logs | When users create, update or delete specific Marketing Campaign Analytics categories, Experience Platform Audit functionality records the activity in the audit logs. See [Audit logs](audit-logs.md) for more information. |
 | Policies | As part of the harmonized data workflow, Experience Platform defined policies are enforced. Any violation of data usage labels is reported and displayed to the user. See [Policies](policies.md) for more information. |
 | Encryption | All datasets used for input and output of models follow the Experience Platform guidelines. Experience Platform data encryption applies for data at-rest and in-transit. |
 | Data hygiene | All datasets used for input and out of models follow the Experience Platform guidelines. Experience Platform provides a set of tools to manage the customer data lifecycle, including the support of different types of data expiration. When you delete a source dataset from Experience Platform, which is used as part of your harmonized data, you are notified. See [Dataset rules](/help/harmonize-data/dataset-rules.md) for more information. |
-| Customer Managed Keys | When you have licensed Mix Modeler with the Privacy Security Shield add-on, you can use the Customer Managed Keys capability to leverage Azure Key Vault to bring your own keys via APIs. You have complete management of data being processed within models in Mix Modeler. |
+| Customer Managed Keys | When you have licensed Marketing Campaign Analytics with the Privacy Security Shield add-on, you can use the Customer Managed Keys capability to leverage Azure Key Vault to bring your own keys via APIs. You have complete management of data being processed within models in Marketing Campaign Analytics. |

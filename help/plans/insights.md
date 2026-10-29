@@ -1,18 +1,18 @@
 ---
 title: Plan insights
-description: Learn how to see insights of your plan and edit a plan in Mix Modeler.
+description: Learn how to see insights of your plan and edit a plan in Marketing Campaign Analytics.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
 autotag-review: '2026-04-28T06:09:37.014Z'
-TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
+TQID: 'https://experienceleague.adobe.com/K1G-WhaMSmzx0tJWgy6NrdDj5jQQRDJQjdRle7-ayJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-    internal-label: Models
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
     internal-label: Model insights
@@ -27,6 +27,7 @@ topic_v2:
 ---
 # Plan insights
 
+{{mm-mca-rebranding}}
   
 In [!UICONTROL Plan insights], your plan insights are created, showing the [!UICONTROL Model], the [!UICONTROL Data range], and the [!UICONTROL Plan target] on which the plan is based.
 
@@ -85,7 +86,7 @@ This line chart visualization shows a marginal return curve for the selected cha
 
 ![Marginal channel return visualization](../assets/overview-plan-marginal-channel-return.png)
 
-To select a specific channel for the visualization, select a channel from the **[!UICONTROL View]** dropdown menu.
+To select a specific channel for the visualization, select a channel from the **[!UICONTROL View]** drop-down menu.
 
 ## Channel synergies
 
@@ -123,14 +124,14 @@ To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edi
    - Support trend analysis. 
    - Identify effective strategies and avoid mistakes while configuring plans. 
     
-   If you select a historical reference period, you align to previous spend pattern preferences and Mix Modeler's planning functionality can generate plans that are within your expectations. These plans should ultimately enhance stakeholder confidence, ensure that marketing plans are strategic, efficient, and that these plans are grounded in proven performance data and business needs.
+   If you select a historical reference period, you align to previous spend pattern preferences and Marketing Campaign Analytics's planning functionality can generate plans that are within your expectations. These plans should ultimately enhance stakeholder confidence, ensure that marketing plans are strategic, efficient, and that these plans are grounded in proven performance data and business needs.
 
    ![Spend selection](/help/assets/plan-spend-selection.png)
 
    1. Select the **[!UICONTROL Spend pattern]**. 
 
        - The default option is **[!UICONTROL Automatic]**. 
-       - Select **[!UICONTROL Historical reference]** and enter a **[!UICONTROL Start date]** to refer to past marketing spend data already available to Mix Modeler. The **[!UICONTROL End date]** is automatically determined based on the selected data range. The proposed start date is the first available past marketing spend data available. To indicate you have selected a non-existing historical reference period, you see a ![AlertRed](/help/assets/icons/AlertRed.svg).
+       - Select **[!UICONTROL Historical reference]** and enter a **[!UICONTROL Start date]** to refer to past marketing spend data already available to Marketing Campaign Analytics. The **[!UICONTROL End date]** is automatically determined based on the selected data range. The proposed start date is the first available past marketing spend data available. To indicate you have selected a non-existing historical reference period, you see a ![AlertRed](/help/assets/icons/AlertRed.svg).
 
 
    1. To modify the budgets for each channel, modify the values for **[!UICONTROL Min]** and **[!UICONTROL Max]** or use the sliders.
@@ -154,8 +155,8 @@ To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edi
             This option allows you to input budgets for one or more date ranges. 
 
             1. In the **[!UICONTROL Optimize]** container:
-               1. Select a conversion from the **[!UICONTROL Select conversion]** dropdown menu.
-               1. Select a model from the **[!UICONTROL Select model]** dropdown menu.
+               1. Select a conversion from the **[!UICONTROL Select conversion]** drop-down menu.
+               1. Select a model from the **[!UICONTROL Select model]** drop-down menu.
             1. Specify a **[!UICONTROL Date range]**, either by typing dates or selecting a date range using ![Calendar](/help/assets/icons/Calendar.svg).
             1. Enter a **[!UICONTROL Budget]**.
                To add additional date ranges, each with their budget, select ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
@@ -170,9 +171,9 @@ To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edi
            ![Plan target](../assets/plan-target.png)
 
             1. In the **[!UICONTROL Optimize]** container
-               1. Select a conversion from the **[!UICONTROL Select conversion]** dropdown menu.
-               1. Select a target metric from the **[!UICONTROL Select target metric]** dropdown menu. You can select between **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]**, or **[!UICONTROL ROI]**.
-               1. Select a model from the **[!UICONTROL Select model]** dropdown menu.
+               1. Select a conversion from the **[!UICONTROL Select conversion]** drop-down menu.
+               1. Select a target metric from the **[!UICONTROL Select target metric]** drop-down menu. You can select between **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]**, or **[!UICONTROL ROI]**.
+               1. Select a model from the **[!UICONTROL Select model]** drop-down menu.
             1. Specify a Date range, either by typing dates or selecting a date range using ![Calendar](/help/assets/icons/Calendar.svg).
             1. Enter a value for the selected target metric. For example, a number for **[!UICONTROL Conversion]**, a percentage for **[!UICONTROL ROI]**, or currency values for **[!UICONTROL CPA]** and **[!UICONTROL Revenue]**.
                To add additional date ranges, each with their target metric, select ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
@@ -189,10 +190,10 @@ To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edi
 
       - Your plan name , model, date range and total budget are summarized.
 
-      - By default, Mix Modeler automatically calculates the average revenue per conversion using the latest historical seasonal data. In **[!UICONTROL Average Revenue per conversion]** you can define specific average revenue per conversion.
+      - By default, Marketing Campaign Analytics automatically calculates the average revenue per conversion using the latest historical seasonal data. In **[!UICONTROL Average Revenue per conversion]** you can define specific average revenue per conversion.
 
    1. For each date range in your budget:
-      1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
+      1. Select a date range from the **[!UICONTROL Date range]** drop-down menu.
       1. Enter an **[!UICONTROL Average revenue]** value.
    1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) Add custom average revenue per conversion unit to add a date range.
    1. Select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) to remove a date range.
@@ -202,12 +203,12 @@ To edit your plan, select ![Edit](/help/assets/icons/Edit.svg) **[!UICONTROL Edi
    >If your model doesn't include historical revenue data, you must define an average revenue per conversion for each date range you specified for your budget.
    >
 
-   - By default, Mix Modeler automatically calculates channel costs using the latest historical seasonal data. In **[!UICONTROL Channel costs]** you can define custom channel costs.
+   - By default, Marketing Campaign Analytics automatically calculates channel costs using the latest historical seasonal data. In **[!UICONTROL Channel costs]** you can define custom channel costs.
 
    1. For each channel in your model, define custom channel cost.
-      1. Select a channel from the **[!UICONTROL Channel]** dropdown menu.
+      1. Select a channel from the **[!UICONTROL Channel]** drop-down menu.
       1. For each date range in your budget:   
-         1. Select a date range from the **[!UICONTROL Date range]** dropdown menu.
+         1. Select a date range from the **[!UICONTROL Date range]** drop-down menu.
          1. Enter an **[!UICONTROL Average revenue]** value.
       1. Select ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** to add a date range.
       1. Select ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) to remove a date range.

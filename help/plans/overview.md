@@ -1,16 +1,20 @@
 ---
 title: Plans overview
-description: Learn how to view, select, and action on plans in Mix Modeler.
+description: Learn how to view, select, and action on plans in Marketing Campaign Analytics.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
 autotag-review: '2026-05-01T09:05:53.776Z'
+TQID: 'https://experienceleague.adobe.com/OZjW5A4DP1raHwQgA5RSrbyFAwEp5gKPrzezj59nnFA'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: Mix Modeler
+    internal-label: Marketing Campaign Analytics
 feature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
     internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
     internal-label: Build plans
@@ -29,7 +33,9 @@ topic_v2:
 ---
 # Plans overview
 
-Plans in Mix Modeler allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
+{{mm-mca-rebranding}}
+
+Plans in Marketing Campaign Analytics allow you to allocate budgets by business unit and channel. The planning functionality is integrated with the outcomes of the trained models based on your harmonized data.
 
 A plan outlines the discretionary investments (for example budgets) a business intends to spend on marketing-related projects over the course of a given timeframe. These investments are in service of common KPIs (for example orders, revenue). Plans can inclusd expenses from channels such as paid advertising, sponsored web content, events.
 
@@ -50,12 +56,12 @@ If a model that you have used for your plan is scored on new data, you need to c
 
 ## Build plans
 
-To build a plan, use the Mix Modeler plan creation wizard. See [Build plans](build.md) for more details.
+To build a plan, use the Marketing Campaign Analytics plan creation wizard. See [Build plans](build.md) for more details.
 
 
 ## Manage plans
 
-To view a table of your current plans, in the Mix Modeler interface:
+To view a table of your current plans, in the Marketing Campaign Analytics interface:
 
 1. Select ![](/help/assets/icons2/FileChart.svg) **[!UICONTROL Plans]** from the left rail.
 
