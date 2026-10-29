@@ -1,19 +1,18 @@
 ---
 cloud: Experience Cloud
-solution: Mix Modeler
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-    internal-label: "Mix Modeler"
+solution: Marketing Campaign Analytics
 usetq: true
-product: experience cloud
 landing-page-name: mix-modeler
-landing-page-breadcrumb-title: Mix Modeler
+landing-page-breadcrumb-title: Marketing Campaign Analytics
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/mix-modeler.en
+git-repo: https://github.com/AdobeDocs/marketing-campaign-analytics.en
 index: true
 feature-set: Mix Modeler
 role: User, Admin
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Marketing Campaign Analytics
 ---
 
 # Metadata for internal use
