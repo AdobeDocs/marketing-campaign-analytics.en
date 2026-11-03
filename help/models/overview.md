@@ -45,7 +45,7 @@ The model functionality in Marketing Campaign Analytics allows you to configure,
 
 The models are based on the harmonized data that you create as part of the application workflow.
 
-A model in Marketing Campaign Analytics is a machine learning model employed to measure and predict a specified outcome based on a marketer's investments. Marketing touchpoints and summary-level data can be used as an input. Marketing Campaign Analytics allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
+A model in Marketing Campaign Analytics is a machine learning model employed to measure and predict a specified outcome based on marketing investments. Marketing touchpoints and summary-level data can be used as an input. Marketing Campaign Analytics allows you to create variants of models based on different sets of variables, dimensions, and outcomes, such as revenues, units sold, leads.
 
 A model requires:
 
@@ -58,26 +58,26 @@ A model can optionally include:
 
 * External factors.
 * Internal factors.
-* Prior knowledge of marketing contributions from other sources such as past stakeholder experience, incrementally testing, other models.
+* Prior knowledge of marketing contributions from other sources such as past stakeholder experience, incremental testing, other models.
 * Spend share, which uses relative spend share as a proxy when marketing data is sparse.
 
-When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model may subsequently be retrained. Also, data may be added to the model which requires you to rescore the model manually. Retraining and rescoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives.
+When a model is first created, the creation immediately kicks off the training and scoring process. After the completion of the initial training and scoring run, model insights are available for review. A model is subsequently retrained. Also, when data is added to the model, a manual rescore of the model is required. Retraining and rescoring are an iterative process as new findings and information emerge and adjustments are needed to obtain a model fit that is most appropriate for your business objectives.
 
 ## Full funnel modeling
 
 {{release-limited-testing-section}}
 
-Full funnel modeling let you model the real stages of their funnel. For example, from newsletter sign-up up to a purchase. Full funnel modeling shows how marketing moves customers through that funnel. Full funnel modeling gives upper-funnel channels credit for the conversions these channels influence downstream, and reconciles the results so contributions add up correctly with no double-counting.
+Full funnel modeling lets you model the real stages of their funnel. For example, from newsletter sign-up up to a purchase. Full funnel modeling shows how marketing moves customers through that funnel. Full funnel modeling gives upper-funnel channels credit for the conversions these channels influence downstream, and reconciles the results so contributions add up correctly with no double-counting.
 
 You use full funnel modeling to model on one upper funnel KPI alongside one lower funnel KPI. 
 
-* Examples of upper funnel KPIs are newsletter signups nd other brand awareness metrics.
+* Examples of upper funnel KPIs are newsletter signups and other brand awareness metrics.
 * Examples of lower funnel metrics are typical conversion metrics, such as revenue and orders. 
 
 Upper funnel tactics often get lesser credit in a conversion focused MMM model. Full funnel modeling  helps you to understand:
 
 * Which media and marketing tactics contributed to the upper funnel goal.
-* Which media and marketing tactics drove indirect impact on the conversion goal. The upper funnel model weights are an input to the lower funnel model to give higher weightage for the media and marketing tactics where relevant. 
+* Which media and marketing tactics drove indirect impact on the conversion goal. The upper funnel model weights are an input to the lower funnel model to give higher weight to the media and marketing tactics where relevant. 
 
 ## Build models
 
@@ -104,7 +104,7 @@ To view a table of your current models, in the Marketing Campaign Analytics inte
 
    To sort the table on any column in ascending ![ArrowMoveUpS2](/help/assets/icons2/ArrowMoveUp.svg) or descending ![ArrowMoveDownS2](/help/assets/icons2/ArrowMoveDown.svg) order, select the title of the column. 
 
-   To sort or resize the **[!UICONTROL Name]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. Alternatively, you can hover over the column separator to resize the **[!UICONTROL Name]** column.
+   To sort or resize the **[!UICONTROL Name]** column, select **[!UICONTROL Name]** ![ChevronDown](/help/assets/icons/ChevronDown.svg). From the context menu select **[!UICONTROL Sort ascending]**, **[!UICONTROL Sort descending]**, or **[!UICONTROL Resize column]**. To resize the **[!UICONTROL Name]** column, hover over the column separator.
 
    The reported status of the model is dependent on where a model is within its lifecycle. For example, whether a model is created, (re-)trained successfully or not, or (re-)scored successfully or not. 
    
@@ -191,6 +191,12 @@ You can edit the name, description and the scheduling of training and scoring of
          * **[!UICONTROL Monthly]**: Select a day of the month from the Run on every drop-down menu and enter a valid time (for example `10:00 am`) or use ![Clock](/help/assets/icons/Clock.svg) to define the time.
 
       1. Select a **[!UICONTROL Training frequency]** from the drop-down menu: **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]**, or **[!UICONTROL None]**. 
+
+   * If full funnel model is enabled, a disabled Enable full funnel attribution is visible. You can not modify this setting.
+
+   * To [make score data available to Customer Journey Analytics](build#customer-journey-analytics), select **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+
+     Once scores are enabled for Customer Journey Analytics you are unable to disable this setting unless the model is deleted.
 
    * To update the [granular insights reporting fields](/help/models/build.md#granular-insights-reporting-fields), in the **[!UICONTROL Granular Insights Reporting Fields]** section:
      1. Select one or more harmonized fields from the **[!UICONTROL _Select harmonized fields_]** underneath **[!UICONTROL Includes]**. The selected harmonized fields are added to the panel.
