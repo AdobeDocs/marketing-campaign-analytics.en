@@ -276,11 +276,12 @@ In the **[!UICONTROL Schedule]** section, you can schedule model training and sc
 
 ### Customer Journey Analytics {#cja}
 
-
 >[!CONTEXTUALHELP]
 >id="model_enable_cja"
 >title="Enable Customer Journey Analytics"
 >abstract="To make score data available to Customer Journey Analytics for reporting and analysis, enable this setting. Once enabled, you must delete the model to disable this setting."
+
+{{release-limited-testing-section}}
 
 When you are entitled to Customer Journey Analytics, and you have created one or more [dataset rules](/help/harmonize-data/dataset-rules.md) for Marketing Campaign Analytics in a particular sandbox:
 
