@@ -194,7 +194,7 @@ You can edit the name, description and the scheduling of training and scoring of
 
    * If full funnel model is enabled, a disabled Enable full funnel attribution is visible. You can not modify this setting.
 
-   * To [make score data available to Customer Journey Analytics](build#customer-journey-analytics), select **[!UICONTROL Enable scores for Customer Journey Analytics]**.
+   * To [make score data available to Customer Journey Analytics](build.md#customer-journey-analytics), select **[!UICONTROL Enable scores for Customer Journey Analytics]**.
 
      Once scores are enabled for Customer Journey Analytics you are unable to disable this setting unless the model is deleted.
 
