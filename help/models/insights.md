@@ -151,6 +151,8 @@ If [full funnel modeling](./overview.md#full-funnel-modeling) is enabled for the
 
 Hover over any flow to see a popup with more details for the specific funnel flow.
 
+The channel associated with the selected upper funnel conversion (as defined in [Conversions](/help/harmonize-data/conversions.md)) is displayed in the center of the visualization (for example: **[!UICONTROL Store]**).
+
 ### Touchpoint breakdown
 
 The touchpoint breakdown table shows the weekly touchpoint breakdowns for all or selected channels, on a weekly base, displaying key metrics associated to each. The table allows for easy comparison, trend identification and performance tracking at a more granular channel level. This table explicitly complements the [Contribution by date and base media](#contribution-by-date-and-base-media) visualization and the [Contribution by channel](#contribution-by-channel) visualization.
