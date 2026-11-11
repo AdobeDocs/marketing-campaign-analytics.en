@@ -1,6 +1,7 @@
 ---
 user-guide-title: Marketing Campaign Analytics Guide
 user-guide-description: Learn how to use Marketing Campaign Analytics.
+nudge: true
 ---
 # Marketing Campaign Analytics Guide {#using}
 
